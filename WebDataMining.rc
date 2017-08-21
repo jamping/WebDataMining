@@ -1,0 +1,2295 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+#include "verrsrc.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (Simplified, PRC) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "#include ""verrsrc.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#include ""res\\WebDataMining.rc2""  // 非 Microsoft Visual C++ 编辑的资源\r\n"
+    "#include ""l.CHS\\afxres.rc""      // 标准组件\r\n"
+    "#include ""l.CHS\\afxprint.rc""    // 打印/打印预览资源\r\n"
+    "#if !defined(_AFXDLL)\r\n"
+    "#include ""l.CHS\\afxribbon.rc""        // MFC 功能区和控件条资源\r\n"
+    "#endif\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\t.ico"
+IDR_tTYPE               ICON                    "res\\tDoc.ico"
+IDR_WEBDATTYPE          ICON                    "res\\WebDataMiningDoc.ico"
+IDI_ICON1               ICON                    "res\\icon1.ico"
+IDI_PROPERTIES_WND_HC   ICON                    "res\\properties_wnd_hc.ico"
+IDI_PROPERTIES_WND      ICON                    "res\\properties_wnd.ico"
+IDI_OUTPUT_WND_HC       ICON                    "res\\output_wnd_hc.ico"
+IDI_OUTPUT_WND          ICON                    "res\\output_wnd.ico"
+IDI_EXTRACT_SOURCE_VIEW_HC ICON                    "res\\extract_source_hc.ico"
+IDI_EXTRACT_SOURCE_VIEW ICON                    "res\\extract_source.ico"
+IDI_EXTRACT_RULE_VIEW_HC ICON                    "res\\extract_rule_hc.ico"
+IDI_EXTRACT_RULE_VIEW   ICON                    "res\\extract_rule.ico"
+IDI_SCHEDULE_VIEW_HC    ICON                    "res\\schedule_hc.ico"
+IDI_DBSERVER_VIEW       ICON                    "res\\dbserver.ico"
+IDI_SCHEDULE_VIEW       ICON                    "res\\schedule.ico"
+IDI_DBSERVER_VIEW_HC    ICON                    "res\\dbserver_hc.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP                  "res\\Toolbar.bmp"
+IDB_WORKSPACE           BITMAP                  "res\\workspace.bmp"
+IDB_CAPTION             BITMAP                  "res\\caption.bmp"
+IDB_TOOLBAR_SMALL       BITMAP                  "res\\ToolbarSmall.bmp"
+IDB_TOOLBAR_LARGE       BITMAP                  "res\\ToolbarLarge.bmp"
+IDB_OPTIONSIMAGES       BITMAP                  "res\\optionsimages.bmp"
+IDB_TREEIMGLIST         BITMAP                  "res\\missiont.bmp"
+IDB_START               BITMAP                  "res\\Start.bmp"
+IDB_BITMAPDISCONNECTED  BITMAP                  "res\\bitmapdi.bmp"
+IDB_BITMAPCONNECTED     BITMAP                  "res\\bitmapco.bmp"
+IDB_WRITESMALL          BITMAP                  "res\\writesmall.bmp"
+IDB_WRITELARGE          BITMAP                  "res\\writelarge.bmp"
+IDB_SORT_24             BITMAP                  "res\\sort_hc.bmp"
+IDB_PROPERTIES_HC       BITMAP                  "res\\properties_hc.bmp"
+IDB_MENU_IMAGES_24      BITMAP                  "res\\menuimages_hc.bmp"
+IDB_MAIN                BITMAP                  "res\\main.bmp"
+IDB_FILESMALL           BITMAP                  "res\\filesmall.bmp"
+IDB_FILELARGE           BITMAP                  "res\\filelarge.bmp"
+IDB_FILE_VIEW_24        BITMAP                  "res\\fileview_hc.bmp"
+IDB_FILE_VIEW           BITMAP                  "res\\fileview.bmp"
+IDB_EXPLORER_24         BITMAP                  "res\\explorer_hc.bmp"
+IDB_CLASS_VIEW_24       BITMAP                  "res\\classview_hc.bmp"
+IDB_CLASS_VIEW          BITMAP                  "res\\classview.bmp"
+IDB_BUTTONS             BITMAP                  "res\\buttons.bmp"
+IDR_MENU_IMAGES         BITMAP                  "res\\menuimages.bmp"
+IDB_BITMAP_BACK         BITMAP                  "res\\bitmap1.bmp"
+IDB_FILE_BITMAP         BITMAP                  "res\\bmp00001.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR 16, 16
+BEGIN
+    BUTTON      ID_FILE_LOGIN
+    BUTTON      ID_FILE_CONNECT_DB
+    SEPARATOR
+    BUTTON      ID_FILE_SHOW_TOPCOLUMN
+    BUTTON      ID_FILE_SHOW_RECENT_TOPIC
+    BUTTON      ID_FILE_CLEAR_OLDURL
+    BUTTON      ID_FILE_DEL_OLDTOPICS
+    SEPARATOR
+    BUTTON      ID_TOOL_VIEW_USERS
+    BUTTON      ID_TOOL_VIEW_LOGS
+    BUTTON      ID_TOOL_OPTIONS
+    SEPARATOR
+    BUTTON      ID_FILE_SENDTO_SERVER
+    BUTTON      ID_FILE_AUTO_SEND
+    BUTTON      ID_SENDTOPIC_SERVER
+    BUTTON      ID_FILE_DOWNLOAD_MANUAL
+    BUTTON      ID_TOOL_SEARCH
+    SEPARATOR
+    BUTTON      ID_APP_ABOUT
+END
+
+IDR_MENU_IMAGES TOOLBAR 16, 15
+BEGIN
+    BUTTON      ID_WINDOW_MANAGER
+    SEPARATOR
+    BUTTON      ID_WINDOW_CASCADE
+    BUTTON      ID_WINDOW_TILE_HORZ
+    BUTTON      ID_TOOLS_MACRO
+    BUTTON      ID_SORTING_SORTALPHABETIC
+    BUTTON      ID_SORTING_SORTBYTYPE
+    BUTTON      ID_SORTING_SORTBYACCESS
+    BUTTON      ID_SORTING_GROUPBYTYPE
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU
+BEGIN
+    POPUP "文件(&F)"
+    BEGIN
+        MENUITEM "用户登陆",                        ID_FILE_LOGIN
+        MENUITEM "连接数据库",                       ID_FILE_CONNECT_DB
+        MENUITEM SEPARATOR
+        MENUITEM "选择频道",                        ID_FILE_SHOW_TOPCOLUMN
+        MENUITEM "显示最近下载文章",                    ID_FILE_SHOW_RECENT_TOPIC
+        MENUITEM SEPARATOR
+        MENUITEM "发布文章",                        ID_SENDTOPIC_SERVER
+        MENUITEM "手动下载文章",                      ID_FILE_DOWNLOAD_MANUAL
+        MENUITEM SEPARATOR
+        MENUITEM "自动传送下载文章",                    ID_FILE_AUTO_SEND
+        MENUITEM "发送到内网服务器",                    ID_FILE_SENDTO_SERVER
+        MENUITEM SEPARATOR
+        MENUITEM "清空URL历史记录",                   ID_FILE_CLEAR_OLDURL
+        MENUITEM "删除所有历史文章",                    ID_FILE_DEL_OLDTOPICS
+        MENUITEM SEPARATOR
+        MENUITEM "退出(&X)",                      ID_APP_EXIT
+    END
+    POPUP "视图(&V)"
+    BEGIN
+        POPUP "工具栏(&T)"
+        BEGIN
+            MENUITEM "",                            ID_VIEW_TOOLBARS
+        END
+        MENUITEM "状态栏(&S)",                     ID_VIEW_STATUS_BAR
+    END
+    POPUP "工具(&T)"
+    BEGIN
+        MENUITEM "&<User-defined tools",        ID_TOOLS_ENTRY
+        MENUITEM SEPARATOR
+        MENUITEM "选项",                          ID_TOOL_OPTIONS
+        MENUITEM "查看用户",                        ID_TOOL_VIEW_USERS
+        MENUITEM "查看日志",                        ID_TOOL_VIEW_LOGS
+        MENUITEM SEPARATOR
+        MENUITEM "导入服务器栏目",                     ID_TOOL_IMPORT_SERVER_COLUMN
+        MENUITEM "备份服务器栏目",                     ID_TOOL_BACKUP_SERVER_COLUMNS
+        MENUITEM "还原服务器栏目",                     ID_TOOL_REBACKUP_SERVER_COLUMN
+        MENUITEM SEPARATOR
+        MENUITEM "查找",                          ID_TOOL_SEARCH
+    END
+    POPUP "帮助(&H)"
+    BEGIN
+        MENUITEM "帮助主题(&H)",                    ID_HELP_TOPIC
+        MENUITEM "关于(&A)",                      ID_APP_ABOUT
+    END
+END
+
+IDR_CONTEXT_MENU1 MENU
+BEGIN
+    POPUP "_POPUP_"
+    BEGIN
+        MENUITEM "剪切(&t)",                      ID_EDIT_CUT
+        MENUITEM "复制(&c)",                      ID_EDIT_COPY
+        MENUITEM "粘帖(&p)",                      ID_EDIT_PASTE
+    END
+END
+
+IDR_POPUP_TOOLBAR MENU
+BEGIN
+    POPUP "DUMMY"
+    BEGIN
+        MENUITEM "标准工具栏(&S)",                   ID_VIEW_TOOLBAR
+        MENUITEM "采集源(&W)",                     ID_VIEW_WORKSPACE
+        MENUITEM "采集规则(&W)",                    ID_VIEW_WORKSPACE2
+        MENUITEM "调度计划(&W)",                    ID_VIEW_WORKSPACE3
+        MENUITEM "服务器列表",                       ID_VIEW_WORKSPACE4
+        MENUITEM "输出窗口(&O)",                    ID_VIEW_OUTPUT
+        MENUITEM "标题栏(&C)",                     ID_VIEW_CAPTIONBAR
+        MENUITEM "<User Toolbar>",              ID_VIEW_USER_TOOLBAR1
+        MENUITEM "<User Toolbar>",              ID_VIEW_USER_TOOLBAR2
+        MENUITEM "<User Toolbar>",              ID_VIEW_USER_TOOLBAR3
+        MENUITEM "<User Toolbar>",              ID_VIEW_USER_TOOLBAR4
+        MENUITEM "<User Toolbar>",              ID_VIEW_USER_TOOLBAR5
+        MENUITEM "<User Toolbar>",              ID_VIEW_USER_TOOLBAR6
+        MENUITEM "<User Toolbar>",              ID_VIEW_USER_TOOLBAR7
+        MENUITEM "<User Toolbar>",              ID_VIEW_USER_TOOLBAR8
+        MENUITEM "<User Toolbar>",              ID_VIEW_USER_TOOLBAR9
+        MENUITEM "<User Toolbar>",              ID_VIEW_USER_TOOLBAR10
+        MENUITEM SEPARATOR
+        MENUITEM "定制(&C)",                      ID_VIEW_CUSTOMIZE
+    END
+END
+
+IDR_TREE_MENU MENU
+BEGIN
+    POPUP "_ROOT_"
+    BEGIN
+        MENUITEM "新建",                          ID_ROOT_NEW
+        MENUITEM SEPARATOR
+        MENUITEM "刷新",                          ID_ROOT_FRESH
+        MENUITEM "保存",                          ID_ROOT_SAVE
+        MENUITEM "删除",                          ID_ROOT_DELETE
+        MENUITEM SEPARATOR
+        MENUITEM "导入",                          ID_IMPORT
+        MENUITEM "导出",                          ID_EXPORT
+        MENUITEM SEPARATOR
+        MENUITEM "下载文章",                        ID_ROOT_DOWNLOAD
+        MENUITEM "删除文章",                        ID_ROOT_DEL_TOPIC
+    END
+    POPUP "_COLUMN_"
+    BEGIN
+        MENUITEM "刷新栏目",                        ID_COLUMN_FRESH
+        MENUITEM "收缩栏目",                        ID_COLUMN_COLLAPSE
+        MENUITEM SEPARATOR
+        MENUITEM "编辑栏目",                        ID_COLUMN_EDIT
+        MENUITEM "保存栏目",                        ID_COLUMN_SAVE
+        MENUITEM "删除栏目",                        ID_COLUMN_DELETE
+        MENUITEM SEPARATOR
+        MENUITEM "新建子栏目",                       ID_COLUMN_NEW
+        MENUITEM "新建条目",                        ID_COLUMN_NEWENTRY
+        MENUITEM SEPARATOR
+        MENUITEM "下载文章",                        ID_COLUMN_DOWNLOAD
+        MENUITEM "删除文章",                        ID_COLUMN_DEL_TOPIC
+        MENUITEM SEPARATOR
+        MENUITEM "调度计划",                        ID_COLUMN_SCHEDULE
+        MENUITEM "指定数据库",                       ID_COLUMN_SET_DBSERVER
+        MENUITEM "更改文章属性",                      ID_ALTER_TOPIC_UNIT
+        MENUITEM SEPARATOR
+        MENUITEM "导出",                          ID_EXPORT
+    END
+    POPUP "_ENTRY_"
+    BEGIN
+        MENUITEM "新建文章",                        ID_ENTRY_NEW_TOPIC
+        MENUITEM "刷新条目",                        ID_ENTRY_FRESH
+        MENUITEM SEPARATOR
+        MENUITEM "编辑条目",                        ID_ENTRY_EDIT
+        MENUITEM "保存条目",                        ID_ENTRY_SAVE
+        MENUITEM "删除条目",                        ID_ENTRY_DELETE
+        MENUITEM SEPARATOR
+        MENUITEM "下载文章",                        ID_ENTRY_DOWNLOAD
+        MENUITEM "删除文章",                        ID_ENTRY_DEL_TOPIC
+        MENUITEM "粘贴文章",                        ID_ENTRY_PASTE_TOPIC
+        MENUITEM SEPARATOR
+        MENUITEM "调度计划",                        ID_ENTRY_SCHEDULE
+        MENUITEM "设置栏目ID",                      ID_ENTRY_SET_COLUMNID
+        MENUITEM "更改文章属性",                      ID_ALTER_TOPIC_UNIT
+        MENUITEM SEPARATOR
+        MENUITEM "导出",                          ID_EXPORT
+    END
+    POPUP "_RULE_"
+    BEGIN
+        MENUITEM "编辑规则",                        ID_RULE_EDIT
+        MENUITEM "删除规则",                        ID_RULE_DELETE
+        MENUITEM "保存规则",                        ID_RULE_SAVE
+        MENUITEM SEPARATOR
+        MENUITEM "新建子规则",                       ID_RULE_NEW
+        MENUITEM "测试规则",                        ID_RULE_TEST
+        MENUITEM SEPARATOR
+        MENUITEM "导出",                          ID_EXPORT
+    END
+    POPUP "_TOPIC_"
+    BEGIN
+        MENUITEM "编辑文章",                        ID_TOPIC_EDIT
+        MENUITEM "剪切文章",                        ID_TOPIC_CUT
+        MENUITEM "删除文章",                        ID_TOPIC_DELETE
+        MENUITEM SEPARATOR
+        MENUITEM "保存文章",                        ID_TOPIC_SAVE
+        MENUITEM "发布文章",                        ID_TOPIC_PUBLISH
+        MENUITEM SEPARATOR
+        MENUITEM "粘贴图片",                        ID_TOPIC_PASTE_PIC
+        MENUITEM "删除图片",                        ID_TOPIC_DEL_PICTURE
+    END
+    POPUP "_PICTURE_"
+    BEGIN
+        MENUITEM "编辑图片",                        ID_PICTURE_EDIT
+        MENUITEM "剪切图片",                        ID_PICTURE_CUT
+        MENUITEM "删除图片",                        ID_PICTURE_DELETE
+        MENUITEM SEPARATOR
+        MENUITEM "保存图片",                        ID_PICTURE_SAVE
+    END
+    POPUP "_SCHEDULE_"
+    BEGIN
+        MENUITEM "编辑调度",                        ID_SCHEDULE_EDIT
+        MENUITEM "删除调度",                        ID_SCHEDULE_DELETE
+        MENUITEM "保存调度",                        ID_SCHEDULE_SAVE
+    END
+    POPUP "_DBSERVER_"
+    BEGIN
+        MENUITEM "编辑服务器",                       ID_DBSERVER_EDIT
+        MENUITEM "删除服务器",                       ID_DBSERVER_DEL
+        MENUITEM "保存服务器",                       ID_DBSERVER_SAVE
+        MENUITEM SEPARATOR
+        MENUITEM "新建数据库",                       ID_DBSERVER_NEW_DB
+    END
+    POPUP "_DATABASE_"
+    BEGIN
+        MENUITEM "编辑数据库",                       ID_DATABASE_EDIT
+        MENUITEM "删除数据库",                       ID_DATABASE_DEL
+        MENUITEM "保存数据库",                       ID_DATABASE_SAVE
+        MENUITEM SEPARATOR
+        MENUITEM "新建数据表",                       ID_DATABASE_NEW_TABLE
+    END
+    POPUP "_TABLE_"
+    BEGIN
+        MENUITEM "编辑数据表",                       ID_TABLE_EDIT
+        MENUITEM "删除数据表",                       ID_TABLE_DEL
+        MENUITEM "保存数据表",                       ID_TABLE_SAVE
+        MENUITEM SEPARATOR
+        MENUITEM "新建操作",                        ID_TABLE_NEW_OPERATOR
+    END
+    POPUP "_OPERATOR_"
+    BEGIN
+        MENUITEM "编辑操作",                        ID_OPERATOR_EDIT
+        MENUITEM "删除操作",                        ID_OPERATOR_DEL
+        MENUITEM "保存操作",                        ID_OPERATOR_SAVE
+        MENUITEM SEPARATOR
+        MENUITEM "新建要素",                        ID_OPERATOR_NEW_UNIT
+    END
+    POPUP "_UNIT_"
+    BEGIN
+        MENUITEM "编辑要素",                        ID_UNIT_EDIT
+        MENUITEM "删除要素",                        ID_UNIT_DEL
+        MENUITEM "保存要素",                        ID_UNIT_SAVE
+    END
+END
+
+IDR_POPUP_MDITABS MENU
+BEGIN
+    POPUP "DUMMY"
+    BEGIN
+        MENUITEM "保存",                          ID_FILE_SAVE
+        MENUITEM "关闭",                          ID_FILE_CLOSE
+    END
+END
+
+IDR_MENU_ARGS MENU
+BEGIN
+    POPUP "_DUMMY_"
+    BEGIN
+        MENUITEM "Item 1",                      ID_MENU_ITEM1
+        MENUITEM "Item 2",                      ID_MENU_ITEM2
+        MENUITEM "Item 3",                      ID_MENU_ITEM3
+    END
+END
+
+IDR_MENU_DIRS MENU
+BEGIN
+    POPUP "DUMMY"
+    BEGIN
+        MENUITEM "Dir &1",                      ID_MENU_DIR1
+        MENUITEM "Dir &2",                      ID_MENU_DIR2
+        MENUITEM "Dir &3",                      ID_MENU_DIR3
+    END
+END
+
+IDR_POPMEMU MENU
+BEGIN
+    POPUP "IDs"
+    BEGIN
+        MENUITEM "关于新闻采集系统(&A)...",             ID_APP_ABOUT
+        MENUITEM "退出(&X)",                      ID_APP_EXIT
+    END
+END
+
+IDR_THEME_MENU MENU
+BEGIN
+    MENUITEM "Office 2007 (蓝色样式)(&B)",      ID_VIEW_APPLOOK_OFF_2007_BLUE
+    MENUITEM "Office 2007 (黑色样式)(&L)",      ID_VIEW_APPLOOK_OFF_2007_BLACK
+    MENUITEM "Office 2007 (银色样式)(&S)",      ID_VIEW_APPLOOK_OFF_2007_SILVER
+    MENUITEM "Office 2007 (水绿色样式)(&A)",     ID_VIEW_APPLOOK_OFF_2007_AQUA
+    MENUITEM "Windows 7(&D)",               ID_VIEW_APPLOOK_WINDOWS_7
+END
+
+IDR_WINDOWS_MENU MENU
+BEGIN
+    MENUITEM "新建窗口(&N)",                    ID_WINDOW_NEW
+END
+
+IDR_tTYPE MENU
+BEGIN
+    POPUP "文件(&F)"
+    BEGIN
+        MENUITEM "新建(&N)\tCtrl+N",              ID_FILE_NEW
+        MENUITEM "打开(&O)...\tCtrl+O",           ID_FILE_OPEN
+        MENUITEM "关闭(&C)",                      ID_FILE_CLOSE
+        MENUITEM "保存(&S)\tCtrl+S",              ID_FILE_SAVE
+        MENUITEM "另存为(&A)...",                  ID_FILE_SAVE_AS
+        MENUITEM SEPARATOR
+        MENUITEM "打印(&P)...\tCtrl+P",           ID_FILE_PRINT
+        MENUITEM "打印预览(&V)",                    ID_FILE_PRINT_PREVIEW
+        MENUITEM "打印设置(&R)...",                 ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "最近的文件",                       ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "退出(&X)",                      ID_APP_EXIT
+    END
+    POPUP "编辑(&E)"
+    BEGIN
+        MENUITEM "撤消(&U)\tCtrl+Z",              ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "剪切(&T)\tCtrl+X",              ID_EDIT_CUT
+        MENUITEM "复制(&C)\tCtrl+C",              ID_EDIT_COPY
+        MENUITEM "粘贴(&P)\tCtrl+V",              ID_EDIT_PASTE
+    END
+    POPUP "视图(&V)"
+    BEGIN
+        MENUITEM "状态栏(&S)",                     ID_VIEW_STATUS_BAR
+        POPUP "应用程序外观(&A)"
+        BEGIN
+            MENUITEM "Windows 2000(&2)",            ID_VIEW_APPLOOK_WIN_2000
+            MENUITEM "Office XP(&X)",               ID_VIEW_APPLOOK_OFF_XP
+            MENUITEM "Windows XP(&W)",              ID_VIEW_APPLOOK_WIN_XP
+            MENUITEM "Office 2003(&3)",             ID_VIEW_APPLOOK_OFF_2003
+            MENUITEM "Visual Studio 200&5",         ID_VIEW_APPLOOK_VS_2005
+            MENUITEM "Visual Studio 200&8",         ID_VIEW_APPLOOK_VS_2008
+            POPUP "Office 2007(&7)"
+            BEGIN
+                MENUITEM "蓝色样式(&B)",                    ID_VIEW_APPLOOK_OFF_2007_BLUE
+                MENUITEM "黑色样式(&L)",                    ID_VIEW_APPLOOK_OFF_2007_BLACK
+                MENUITEM "银色样式(&S)",                    ID_VIEW_APPLOOK_OFF_2007_SILVER
+                MENUITEM "水绿色样式(&A)",                   ID_VIEW_APPLOOK_OFF_2007_AQUA
+            END
+        END
+    END
+    POPUP "窗口(&W)"
+    BEGIN
+        MENUITEM "新建窗口(&N)",                    ID_WINDOW_NEW
+    END
+    POPUP "帮助(&H)"
+    BEGIN
+        MENUITEM "关于 t(&A)...",                 ID_APP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS
+BEGIN
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL, NOINVERT
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL, NOINVERT
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    VK_F1,          ID_HELP_TOPIC,          VIRTKEY, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 235, 73
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,7,7,20,20
+    LTEXT           "新闻采集系统3.0",IDC_STATIC,41,7,119,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2010-2014",IDC_STATIC,41,35,119,8
+    DEFPUSHBUTTON   "关闭",IDOK,178,7,50,14,WS_GROUP
+    PUSHBUTTON      "http://www.zzb.hj",IDC_COMPANY_URL,40,50,119,14
+    LTEXT           "desinged by ocean",IDC_STATIC,41,21,69,8
+END
+
+IDD_INFO_DLG DIALOG 0, 0, 187, 59
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "基本信息"
+FONT 10, "System"
+BEGIN
+    EDITTEXT        IDC_NAME,44,11,130,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "确定",IDOK,51,38,34,14
+    PUSHBUTTON      "取消",IDCANCEL,101,38,34,14
+    LTEXT           "名称",IDC_TITLE,9,12,26,11
+END
+
+IDD_RULE_DLG DIALOGEX 0, 0, 234, 123
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "规则信息"
+FONT 10, "System", 0, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_RULE_NAME,29,7,192,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_MATCH_RULE,29,25,192,57,ES_MULTILINE | ES_WANTRETURN | WS_VSCROLL | WS_HSCROLL
+    COMBOBOX        IDC_PROCESS_TYPE,45,86,70,70,CBS_DROPDOWNLIST | CBS_AUTOHSCROLL | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_SAVE_TYPE,155,86,35,96,CBS_DROPDOWNLIST | CBS_AUTOHSCROLL | WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "确定",IDOK,75,102,34,14
+    PUSHBUTTON      "取消",IDCANCEL,125,102,34,14
+    LTEXT           "规则",IDC_STATIC,7,25,17,8
+    LTEXT           "处理类型",IDC_STATIC,7,87,34,8
+    LTEXT           "名称",IDC_STATIC,7,9,17,8
+    LTEXT           "保存类型",IDC_STATIC,120,87,35,8
+END
+
+IDD_ENTRY_DLG DIALOG 0, 0, 272, 213
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "条目信息"
+FONT 10, "System"
+BEGIN
+    EDITTEXT        IDC_ENTRY_NAME,37,7,113,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_WEB_NAME,183,7,82,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_URL,37,24,229,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_RULE,37,55,228,51,ES_MULTILINE | ES_WANTRETURN | WS_VSCROLL | WS_HSCROLL
+    EDITTEXT        IDC_TOPICMAX,72,122,40,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_TRYTIMES,187,122,40,14,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "自动发布",IDC_AUTO_PUBLISH,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,143,152,48,10
+    DEFPUSHBUTTON   "确定",IDOK,187,193,36,14
+    PUSHBUTTON      "取消",IDCANCEL,229,193,36,14
+    LTEXT           "名称",IDC_STATIC,11,10,17,8
+    LTEXT           "网站名",IDC_STATIC,155,9,25,8
+    LTEXT           "文章列表范围规则",IDC_STATIC,11,43,65,8
+    LTEXT           "地址",IDC_STATIC,11,25,17,8
+    LTEXT           "下载文章最大数",IDC_STATIC,12,124,57,8
+    LTEXT           "下载文章重试次数",IDC_STATIC,118,124,65,8
+    GROUPBOX        "下载属性设置",IDC_STATIC,5,108,260,37
+    COMBOBOX        IDC_COMBO_RULE,40,151,97,79,CBS_DROPDOWNLIST | CBS_AUTOHSCROLL | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "选择规则",IDC_STATIC,5,151,33,8
+    PUSHBUTTON      "测试",IDC_BUTTON_TEST,83,41,22,12
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKRECT | SS_SUNKEN,5,189,260,1
+    LTEXT           "栏目ID",IDC_STATIC,5,169,24,8
+    EDITTEXT        IDC_SERVER_COLUMNID,40,168,158,14,ES_AUTOHSCROLL
+END
+
+IDD_RULEGROUP_DLG DIALOG 0, 0, 158, 150
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "规则信息"
+FONT 10, "System"
+BEGIN
+    LISTBOX         IDC_LIST_RULE,7,21,101,122,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "确定",IDOK,114,7,37,14
+    PUSHBUTTON      "取消",IDCANCEL,114,25,37,14
+    LTEXT           "",IDC_TITLE,8,9,100,8
+END
+
+IDD_DBLOGIN DIALOG 0, 0, 147, 115
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "登录"
+FONT 10, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_DBSERVER,45,9,86,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_DATABASE,45,26,86,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_USER,45,41,86,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_PASS,45,58,86,14,ES_PASSWORD | ES_AUTOHSCROLL
+    CONTROL         "保存密码",IDC_SAVEPASSWORD,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,45,77,54,14
+    DEFPUSHBUTTON   "确定",IDOK,39,95,33,14
+    PUSHBUTTON      "取消",IDCANCEL,79,95,33,14
+    LTEXT           "服务器",IDC_STATIC,7,11,24,8
+    LTEXT           "口  令",IDC_STATIC,7,62,24,8
+    LTEXT           "用户名",IDC_STATIC,7,45,23,8
+    LTEXT           "数据库",IDC_STATIC,7,28,24,8
+END
+
+IDD_TOPIC_DLG DIALOGEX 0, 0, 388, 282
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "文章信息"
+FONT 10, "System", 0, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_HEAD_TITLE,35,3,346,21,ES_MULTILINE | ES_AUTOVSCROLL | ES_WANTRETURN | WS_VSCROLL
+    EDITTEXT        IDC_TITLE,35,25,346,12,ES_WANTRETURN
+    EDITTEXT        IDC_MAIN_TITLE,35,38,346,12,ES_WANTRETURN
+    EDITTEXT        IDC_SUB_TITLE,35,51,346,21,ES_MULTILINE | ES_AUTOVSCROLL | ES_WANTRETURN | WS_VSCROLL
+    COMBOBOX        IDC_SOURCE,35,74,94,97,CBS_DROPDOWN | CBS_AUTOHSCROLL | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_TIME,161,73,99,94,CBS_DROPDOWN | CBS_AUTOHSCROLL | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_AUTHOR,292,74,89,14,ES_AUTOHSCROLL
+    CONTROL         "IDC_COMBO_COLUMN",IDC_COMBO_COLUMN,"Button",BS_OWNERDRAW | BS_FLAT | WS_TABSTOP,35,91,93,14
+    COMBOBOX        IDC_COMBO_KEYWORD,161,90,100,134,CBS_DROPDOWN | CBS_AUTOHSCROLL | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_SUBJECT,292,90,89,134,CBS_DROPDOWN | CBS_AUTOHSCROLL | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "重要",IDC_CHECK_PRIMARY2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,35,108,27,10
+    EDITTEXT        IDC_WEIGHT,161,105,30,14,ES_AUTOHSCROLL | ES_NUMBER | WS_GROUP
+    CONTROL         "Spin1",IDC_SPIN1,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,191,105,10,14
+    PUSHBUTTON      "过滤",IDC_FILTER,206,105,36,14
+    PUSHBUTTON      "格式化",IDC_FORMAT,247,105,36,14
+    PUSHBUTTON      "粘贴源码",IDC_PASTE_CODE,288,105,41,14
+    PUSHBUTTON      "<<<",IDC_KEYWORD_PREV,333,105,22,14
+    PUSHBUTTON      ">>>",IDC_KEYWORD_NEXT,359,105,22,14
+    EDITTEXT        IDC_CONTENT,35,123,346,134,ES_MULTILINE | ES_AUTOVSCROLL | ES_WANTRETURN | WS_VSCROLL
+    PUSHBUTTON      "查看",IDC_BUTTON_VIEW,35,263,28,14
+    PUSHBUTTON      "修改",IDC_BUTTON_MODIFY,68,263,28,14
+    PUSHBUTTON      "新建",IDC_BUTTON_NEW_TOPIC,101,263,28,14
+    PUSHBUTTON      "上一篇",IDC_BUTTON_PREV,134,263,34,14
+    PUSHBUTTON      "下一篇",IDC_BUTTON_NEXT,173,263,34,14
+    PUSHBUTTON      "发布",IDC_BUTTON_PUBLISH,212,263,28,14
+    PUSHBUTTON      "保存",IDC_BUTTON_SAVE,245,263,28,14
+    PUSHBUTTON      "图片",IDC_VIEW_PICTURE,278,263,28,14
+    DEFPUSHBUTTON   "确定",IDOK,311,263,28,14
+    PUSHBUTTON      "取消",IDCANCEL,344,263,28,14
+    LTEXT           "引标",IDC_STATIC,6,9,17,8
+    LTEXT           "标题",IDC_STATIC,6,26,17,8
+    LTEXT           "副标",IDC_STATIC,6,56,17,8
+    LTEXT           "内容",IDC_STATIC,6,123,17,8
+    LTEXT           "关联词",IDC_STATIC,133,92,25,8
+    LTEXT           "专题词",IDC_STATIC,265,92,24,8
+    LTEXT           "来源",IDC_STATIC,6,76,17,8
+    LTEXT           "时  间",IDC_STATIC,135,77,25,8
+    LTEXT           "作者",IDC_STATIC,267,77,17,8
+    LTEXT           "栏目",IDC_STATIC,6,92,17,8
+    LTEXT           "属性",IDC_STATIC,6,109,17,8
+    LTEXT           "缩标",IDC_STATIC,6,39,17,8
+    LTEXT           "权   重",IDC_CODE,133,108,23,8
+END
+
+IDD_PICTURE_DLG DIALOGEX 0, 0, 354, 141
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "图片信息"
+FONT 10, "System", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_URL,29,7,164,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EXPLAIN,29,34,176,82,ES_MULTILINE | ES_AUTOVSCROLL | ES_WANTRETURN | WS_VSCROLL
+    DEFPUSHBUTTON   "确定",IDOK,122,122,33,14
+    PUSHBUTTON      "取消",IDCANCEL,171,122,33,14
+    LTEXT           "地址",IDC_STATIC,7,7,17,8
+    LTEXT           "说明文字",IDC_STATIC,7,23,33,8
+    LTEXT           "图片预览",IDC_STATIC,262,9,33,8
+    PUSHBUTTON      "...",IDC_BROWSE,196,7,14,14
+    LTEXT           "",IDC_PREVIEW,214,20,133,99,WS_BORDER
+END
+
+IDD_SCHEDULE_DLG DIALOG 0, 0, 285, 222
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "调度信息"
+FONT 10, "System"
+BEGIN
+    EDITTEXT        IDC_SCHEDULE_NAME,46,3,201,14,ES_AUTOHSCROLL
+    CONTROL         "启用",IDC_ENABLED,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,250,5,27,10
+    CONTROL         "一次发生于",IDC_FREQ_SUBDAY_TYPE,"Button",BS_AUTORADIOBUTTON | WS_GROUP,20,106,52,10
+    EDITTEXT        IDC_ONCE_TIME,72,105,47,14,ES_AUTOHSCROLL
+    CONTROL         "发生周期",IDC_FREQ_SUBDAY_TYPE2,"Button",BS_AUTORADIOBUTTON,20,124,46,10
+    EDITTEXT        IDC_NUM,72,122,21,14,ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_SPIN_NUM,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,93,122,6,14
+    COMBOBOX        IDC_TIME_TYPE,101,123,30,30,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_ACTIVE_START_TIME,174,122,47,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ACTIVE_END_TIME,174,138,47,14,ES_AUTOHSCROLL
+    CONTROL         "DateTimePicker1",IDC_ACTIVE_START_DATE,
+                    "SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,59,172,54,15
+    CONTROL         "结束日期",IDC_RADIO_END,"Button",BS_AUTORADIOBUTTON | WS_GROUP,128,174,48,10
+    CONTROL         "无结束日期",IDC_RADIO_END2,"Button",BS_AUTORADIOBUTTON,128,186,56,10
+    CONTROL         "DateTimePicker1",IDC_ACTIVE_END_DATE,"SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,188,172,54,15
+    DEFPUSHBUTTON   "确定",IDOK,99,201,35,14
+    PUSHBUTTON      "取消",IDCANCEL,150,201,35,14
+    LTEXT           "调度名称",IDC_STATIC,7,5,33,8
+    GROUPBOX        "每日频率",IDC_STATIC,8,90,270,66
+    LTEXT           "起止于：",IDC_STATIC,141,125,33,8
+    LTEXT           "终止于：",IDC_STATIC,141,141,33,8
+    GROUPBOX        "持续时间",IDC_STATIC,7,160,271,40
+    LTEXT           "开始日期",IDC_STATIC,22,174,33,8
+    GROUPBOX        "每天频率",IDC_STATIC,9,23,269,62
+    EDITTEXT        IDC_DAY,46,46,26,14,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "Spin1",IDC_SPIN_DAY,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | WS_GROUP,68,46,6,14
+    LTEXT           "每",IDC_STATIC,34,48,9,8
+    LTEXT           "天",IDC_STATIC,77,49,9,8
+END
+
+IDD_EVERYDAY_DLG DIALOG 0, 0, 215, 62
+STYLE DS_SETFONT | WS_CHILD
+FONT 10, "System"
+BEGIN
+    GROUPBOX        "每天",IDC_STATIC,0,0,215,62
+    EDITTEXT        IDC_DAY,37,20,26,14,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "Spin1",IDC_SPIN1,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | WS_GROUP,59,20,6,14
+    LTEXT           "每",IDC_STATIC,25,22,9,8
+    LTEXT           "天",IDC_STATIC,68,23,9,8
+END
+
+IDD_EVERYWEEK_DLG DIALOG 0, 0, 218, 62
+STYLE DS_SETFONT | WS_CHILD
+FONT 10, "System"
+BEGIN
+    GROUPBOX        "每周",IDC_STATIC,0,0,215,62
+    EDITTEXT        IDC_WEEK,37,11,26,14,ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_SPIN1,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,59,11,6,14
+    LTEXT           "每",IDC_STATIC,25,13,9,8
+    LTEXT           "周，在：",IDC_STATIC,68,14,33,8
+    CONTROL         "星期一",IDC_MONDAY,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,10,30,34,10
+    CONTROL         "星期二",IDC_TUESDAY,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,59,30,34,10
+    CONTROL         "星期五",IDC_FRIDAY,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,10,44,34,10
+    CONTROL         "星期六",IDC_SATURDAY,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,59,44,34,10
+    CONTROL         "星期四",IDC_THURSDAY,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,157,30,34,10
+    CONTROL         "星期三",IDC_WEDNSDAY,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,108,30,34,10
+    CONTROL         "星期日",IDC_SUNDAY,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,108,44,34,10
+END
+
+IDD_EVERYMONTH_DLG DIALOG 0, 0, 218, 62
+STYLE DS_SETFONT | WS_CHILD
+FONT 10, "System"
+BEGIN
+    GROUPBOX        "每月",IDC_EVERY_DAY,0,0,215,62
+    EDITTEXT        IDC_MONTH,43,15,26,14,ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_SPIN_MONTH,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,65,15,6,14
+    LTEXT           "个月，第",IDC_STATIC,74,18,33,8,NOT WS_GROUP
+    EDITTEXT        IDC_DAY,110,15,22,14,ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_SPIN_DAY,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,127,15,9,14
+    LTEXT           "天",IDC_STATIC,136,17,9,8,NOT WS_GROUP
+    CONTROL         "每",IDC_EVERY,"Button",BS_AUTORADIOBUTTON | WS_GROUP,22,17,19,10
+    EDITTEXT        IDC_MONTH2,43,36,26,14,ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_SPIN_MONTH2,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,65,36,6,14
+    LTEXT           "个月，第",IDC_STATIC,74,39,33,8,NOT WS_GROUP
+    CONTROL         "每",IDC_EVERY2,"Button",BS_AUTORADIOBUTTON,22,38,19,10
+    COMBOBOX        IDC_COMBO_NUM,112,37,31,68,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_DAY,146,37,48,73,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_SCHEDULE_LIST_DLG DIALOG 0, 0, 278, 150
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "调度列表信息"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "新建",IDC_NEW,82,129,36,14
+    DEFPUSHBUTTON   "编辑",IDC_EDIT,120,129,36,14
+    DEFPUSHBUTTON   "删除",IDC_DEL,158,129,36,14
+    DEFPUSHBUTTON   "确定",IDOK,196,129,36,14
+    PUSHBUTTON      "取消",IDCANCEL,234,129,36,14
+    LTEXT           "调度列表信息",IDC_STATIC,7,7,49,8
+    CONTROL         "List2",IDC_LIST_SCHEDULE,"SysListView32",LVS_REPORT | WS_BORDER | WS_TABSTOP,7,20,264,101
+END
+
+IDD_TOPIC_PUBLISH_DLG DIALOGEX 0, 0, 434, 274
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "文章发布"
+FONT 10, "System", 0, 0, 0x0
+BEGIN
+    CONTROL         "",IDC_COLUMN,"Button",BS_OWNERDRAW | BS_FLAT | WS_TABSTOP,62,9,97,12
+    COMBOBOX        IDC_COMBO_KEYWORD,201,9,100,134,CBS_DROPDOWN | CBS_AUTOHSCROLL | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_SUBJECT,338,9,89,134,CBS_DROPDOWN | CBS_AUTOHSCROLL | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Tab1",IDC_TAB,"SysTabControl32",0x0,7,24,420,224
+    CONTROL         "是否重要",IDC_CHECK_RPIMARY1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,12,254,48,10
+    CONTROL         "",IDC_SERVER_COLUMN,"Button",BS_OWNERDRAW | BS_FLAT | WS_TABSTOP,103,254,97,12
+    DEFPUSHBUTTON   "全选",IDC_SELECTED_ALL,205,253,35,14
+    DEFPUSHBUTTON   "发布",IDC_PUBLISH_TOPIC,242,253,35,14
+    DEFPUSHBUTTON   "删除",IDC_DELETE,279,253,35,14
+    DEFPUSHBUTTON   " 刷新",IDC_FRESH,316,253,35,14
+    DEFPUSHBUTTON   "导出",IDC_EXPORT,353,253,35,14
+    DEFPUSHBUTTON   "关闭",IDOK,390,253,35,14
+    LTEXT           "请选择文章源",IDC_STATIC,10,10,49,8
+    LTEXT           "关联词",IDC_STATIC,173,10,25,8
+    LTEXT           "专题词",IDC_STATIC,308,10,24,8
+    LTEXT           "服务器栏目",IDC_STATIC,59,255,41,8
+END
+
+IDD_TOPIC_LIST_DLG DIALOG 0, 0, 187, 94
+STYLE DS_SETFONT | WS_CHILD
+FONT 10, "System"
+BEGIN
+    CONTROL         "List1",IDC_LIST_TOPIC,"SysListView32",LVS_REPORT | WS_BORDER | WS_TABSTOP,7,7,60,50
+END
+
+IDD_OPTIONS_GENERAL DIALOGEX 0, 0, 252, 182
+STYLE DS_SETFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "基本配置信息"
+FONT 10, "System", 0, 0, 0x0
+BEGIN
+    CONTROL         "只允许运行一个实例",IDC_ONE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,31,16,88,10
+    CONTROL         "最小化到系统托盘",IDC_MIMI_TO_TRAY,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,149,16,80,10
+    CONTROL         "开机自动运行",IDC_AUTORUN,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,31,29,64,10
+    CONTROL         "关闭到系统托盘",IDC_CLOSE_TO_TRAY,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,149,29,72,10
+    CONTROL         "外网",IDC_OUTER,"Button",BS_AUTORADIOBUTTON | WS_GROUP,31,56,32,10
+    CONTROL         "内网",IDC_INNER,"Button",BS_AUTORADIOBUTTON,82,56,32,10
+    EDITTEXT        IDC_MAX_MISSION,76,85,40,14,ES_AUTOHSCROLL
+    CONTROL         "IPAddress1",IDC_IPADDRESS_BROADCAST,"SysIPAddress32",WS_TABSTOP,76,103,100,15
+    EDITTEXT        IDC_PORTNUM,76,123,101,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_MYSQL_DRIVE,84,151,161,14,ES_AUTOHSCROLL
+    GROUPBOX        "系统类型",IDC_STATIC,7,46,238,27
+    GROUPBOX        "常规",IDC_STATIC,7,7,238,37
+    GROUPBOX        "网络属性",IDC_STATIC,7,73,238,69
+    LTEXT           "广播地址",IDC_STATIC,31,105,33,8
+    LTEXT           "端口号",IDC_STATIC,31,123,25,8
+    LTEXT           "最大任务数",IDC_STATIC,31,88,41,8
+    LTEXT           "（5-100）",IDC_STATIC,122,87,50,8
+    LTEXT           "MySQL数据库驱动名",IDC_STATIC,7,153,73,8
+END
+
+IDD_OPTIONS_DATABASE DIALOGEX 0, 0, 252, 182
+STYLE DS_SETFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "数据库配置信息"
+FONT 10, "System", 0, 0, 0x0
+BEGIN
+    GROUPBOX        "图片保存目录",IDC_STATIC,7,139,238,36
+    EDITTEXT        IDC_FILE_SAVE_DIR,31,153,196,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BUTTON_FILESAVE,229,152,12,14
+    GROUPBOX        "数据库类型",IDC_STATIC,7,7,238,30
+    CONTROL         "网络版",IDC_SQLSERVER,"Button",BS_AUTORADIOBUTTON | WS_GROUP,32,21,40,10
+    CONTROL         "单机版",IDC_ACCESS,"Button",BS_AUTORADIOBUTTON,111,21,40,10
+    EDITTEXT        IDC_USER,65,77,76,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_PASS,65,94,76,12,ES_PASSWORD | ES_AUTOHSCROLL
+    CONTROL         "保存密码",IDC_SAVEPASSWORD,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,144,94,48,12
+    LTEXT           "服务器",IDC_STATIC,29,62,28,9
+    LTEXT           "密码",IDC_STATIC,29,95,28,9
+    LTEXT           "用户名",IDC_STATIC,29,79,28,9
+    LTEXT           "数据库",IDC_STATIC,29,111,28,9
+    COMBOBOX        IDC_DBSERVER,65,60,76,69,CBS_DROPDOWN | CBS_AUTOHSCROLL | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_DATABASE,65,111,76,70,CBS_DROPDOWN | CBS_AUTOHSCROLL | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "数据库配置",IDC_STATIC,6,41,238,92
+END
+
+IDD_OPTIONS_WDMCONFIG DIALOGEX 0, 0, 252, 182
+STYLE DS_SETFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "文章采编配置信息"
+FONT 10, "System", 0, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_TOPIC_SAVE_DAYS,90,18,59,12,ES_AUTOHSCROLL
+    LTEXT           "文章保存",IDC_STATIC,26,19,55,9
+    LTEXT           "图片宽度和高度",IDC_STATIC,26,121,57,8
+    LTEXT           "图片插值算法",IDC_STATIC,26,136,49,8
+    EDITTEXT        IDC_PICTURE_WIDTH,90,120,48,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_PICTURE_HEIGHT,150,120,48,13,ES_AUTOHSCROLL
+    LTEXT           "文章时间阀值",IDC_STATIC,26,61,49,8
+    EDITTEXT        IDC_TOPIC_TOPTIME,90,57,59,14,ES_AUTOHSCROLL
+    LTEXT           "小时",IDC_STATIC,154,61,17,8
+    LTEXT           "像素",IDC_STATIC,201,122,17,8
+    LTEXT           "天",IDC_STATIC,154,19,9,8
+    EDITTEXT        IDC_TOPIC_KEYWORD,90,31,59,12,ES_AUTOHSCROLL
+    LTEXT           "文章关键字",IDC_STATIC,26,33,55,9
+    LTEXT           "个",IDC_STATIC,155,33,9,8
+    GROUPBOX        "文章属性",IDC_STATIC,7,7,238,96
+    GROUPBOX        "图片属性",IDC_STATIC,7,105,238,72
+    LTEXT           "修改文章路径",IDC_STATIC,26,88,49,8
+    EDITTEXT        IDC_TOPIC_MODIFY_PATH,90,85,148,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_TOPIC_VIEW_PATH,90,72,148,12,ES_AUTOHSCROLL
+    LTEXT           "查看文章路径",IDC_STATIC,26,74,55,9
+    EDITTEXT        IDC_TOPIC_TOPKEYWORD,90,44,59,12,ES_AUTOHSCROLL
+    LTEXT           "文章关键字阀值",IDC_STATIC,26,47,61,9
+    LTEXT           "个",IDC_STATIC,155,46,9,8
+    LTEXT           "图片大小阀值",IDC_STATIC,26,150,49,8
+    EDITTEXT        IDC_PICTURE_MAXSIZE,90,149,59,13,ES_AUTOHSCROLL
+    LTEXT           "KB",IDC_STATIC,156,151,11,8
+    LTEXT           "×",IDC_STATIC,142,122,8,8
+    COMBOBOX        IDC_INTERPOLATION,90,135,125,83,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_PICTURE_LIST_DLG DIALOG 0, 0, 326, 141
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "图片列表信息"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,192,122,33,14
+    PUSHBUTTON      "取消",IDCANCEL,232,122,33,14
+    CONTROL         "List1",IDC_LIST_PICTURE,"SysListView32",LVS_REPORT | WS_BORDER | WS_TABSTOP,7,0,312,117
+    DEFPUSHBUTTON   "删除",IDC_DELETE,152,122,33,14
+    DEFPUSHBUTTON   "添加",IDC_ADD,112,122,33,14
+    DEFPUSHBUTTON   "过滤",IDC_FILTER,72,122,33,14
+END
+
+IDD_OPTIONS_PUBCONFIG DIALOG 0, 0, 252, 182
+STYLE DS_SETFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "文章发布配置信息"
+FONT 10, "System"
+BEGIN
+    COMBOBOX        IDC_COMBO_TABLES,163,7,81,82,CBS_DROPDOWN | CBS_AUTOHSCROLL | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LISTBOX         IDC_LIST_TOPIC_UNIT,7,19,80,91,LBS_MULTIPLESEL | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LISTBOX         IDC_LIST_TABLE_UNIT,163,26,82,85,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "关联",IDC_BUTTON_ASSOC,113,61,31,14
+    LTEXT           "SQL语句",IDC_STATIC,7,115,31,8
+    EDITTEXT        IDC_SQL,7,126,238,49,ES_MULTILINE | ES_AUTOVSCROLL | ES_WANTRETURN | WS_VSCROLL
+    LTEXT           "文章要素",IDC_STATIC,7,8,33,8
+    LTEXT           "数据表",IDC_STATIC,116,8,25,8
+    LTEXT           "表要素",IDC_STATIC,116,25,25,8
+    CONTROL         "",IDC_STATIC,"Static",SS_GRAYFRAME | SS_SUNKEN,96,9,1,102
+    CONTROL         "",IDC_STATIC,"Static",SS_GRAYFRAME | SS_SUNKEN,154,9,1,103
+END
+
+IDD_SEL_RECENT_TOPIC DIALOGEX 0, 0, 160, 76
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "最近下载的文章日期"
+FONT 10, "System", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,77,55,36,14
+    PUSHBUTTON      "取消",IDCANCEL,117,55,36,14
+    LTEXT           "选择最近下载的文章日期",IDC_STATIC,7,10,89,8
+    CONTROL         "",IDC_DATETIME,"SysDateTimePick32",DTS_RIGHTALIGN | DTS_LONGDATEFORMAT | WS_TABSTOP,12,27,136,18,WS_EX_LEFTSCROLLBAR
+END
+
+IDD_USER_LOGIN DIALOGEX 0, 0, 305, 115
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "用户登陆"
+FONT 10, "System", 0, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_USER_NAME,44,8,80,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_USER_PASSWD,44,27,80,14,ES_PASSWORD | ES_AUTOHSCROLL
+    CONTROL         "是否保存密码",IDC_IS_SAVE_PASS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,44,46,57,10
+    COMBOBOX        IDC_COMBO_PRIVS,44,61,80,70,CBS_DROPDOWNLIST | CBS_AUTOHSCROLL | WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "确定",IDOK,19,94,35,14
+    PUSHBUTTON      "取消",IDCANCEL,58,94,35,14
+    LTEXT           "用户名",IDC_STATIC,11,10,25,8
+    LTEXT           "密   码",IDC_STATIC,11,28,23,8
+    LTEXT           "身   份",IDC_STATIC,11,62,23,8
+    CONTROL         "启动后自动传送文章",IDC_IS_AUTO_SEND_TOPIC,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,45,78,89,10
+    CONTROL         "List1",IDC_LIST_TOPCOLUMN,"SysListView32",LVS_REPORT | WS_BORDER | WS_TABSTOP,147,7,151,83
+    PUSHBUTTON      ">>>",IDC_ADVANCED,98,94,35,14
+    PUSHBUTTON      "全选",IDC_SELALL,167,94,35,14
+    CONTROL         "",IDC_DEFAULTBOX,"Static",SS_BLACKFRAME,7,7,136,108
+    PUSHBUTTON      "配置",IDC_CONFIG,210,94,35,14
+    PUSHBUTTON      "修复",IDC_REPAIR,253,94,35,14
+END
+
+IDD_LOGS DIALOG 0, 0, 417, 262
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "历史日志"
+FONT 10, "System"
+BEGIN
+    CONTROL         "List1",IDC_LIST_LOGS,"SysListView32",LVS_REPORT | WS_BORDER | WS_TABSTOP,7,5,403,228
+    DEFPUSHBUTTON   "关闭",IDOK,374,241,36,14
+    PUSHBUTTON      "清空",IDC_CLEAR_LOGS,332,241,36,14
+    LTEXT           "共1/100页",IDC_PAGENUM,10,241,85,9
+    PUSHBUTTON      "尾页",IDC_LAST_PAGE,223,241,36,14
+    PUSHBUTTON      "后页",IDC_NEXT_PAGE,182,241,36,14
+    PUSHBUTTON      "前页",IDC_PREV_PAGE,141,241,36,14
+    PUSHBUTTON      "首页",IDC_FIRST_PAGE,100,241,36,14
+END
+
+IDD_USER_MANAGE DIALOG 0, 0, 307, 224
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "用户管理"
+FONT 10, "System"
+BEGIN
+    EDITTEXT        IDC_USER_NAME,37,10,263,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_USER_PASSWD,37,26,263,14,ES_PASSWORD | ES_AUTOHSCROLL
+    COMBOBOX        IDC_COMBO_PRIVS,37,42,105,60,CBS_DROPDOWNLIST | CBS_AUTOHSCROLL | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_USER_DESC,37,60,263,33,ES_MULTILINE | ES_WANTRETURN | WS_VSCROLL
+    DEFPUSHBUTTON   "增加",IDC_ADD_USER,114,203,32,14
+    DEFPUSHBUTTON   "关闭",IDOK,266,203,32,14
+    DEFPUSHBUTTON   "删除",IDC_DEL_USER,152,203,32,14
+    DEFPUSHBUTTON   "修改",IDC_MODIFY_USER,190,203,32,14
+    DEFPUSHBUTTON   "清空",IDC_CLEAR_USERS,228,203,32,14
+    CONTROL         "List1",IDC_LIST_USERS,"SysListView32",LVS_REPORT | WS_BORDER | WS_TABSTOP,36,106,264,91
+    LTEXT           "用户名",IDC_STATIC,7,10,25,8
+    LTEXT           "密    码",IDC_STATIC,7,27,25,8
+    LTEXT           "身    份",IDC_STATIC,7,44,25,8
+    LTEXT           "描    述",IDC_STATIC,7,55,25,8
+    LTEXT           "用户列表",IDC_STATIC,8,95,33,8
+END
+
+IDD_CLIPBOARD DIALOG 0, 0, 280, 193
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "剪切板"
+FONT 10, "System"
+BEGIN
+    PUSHBUTTON      "粘贴",IDC_PASTE_CLIPBOARD,117,172,34,14
+    DEFPUSHBUTTON   "确定",IDOK,197,172,34,14
+    PUSHBUTTON      "取消",IDCANCEL,237,172,34,14
+    PUSHBUTTON      "清空",IDC_CLEAR_CLIPBOARD,157,172,34,14
+    EDITTEXT        IDC_CLIPBOARD,7,7,266,157,ES_MULTILINE | ES_WANTRETURN | WS_VSCROLL
+END
+
+IDD_MODIFY_USERPASS DIALOG 0, 0, 187, 73
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "修改用户密码"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,51,52,34,14
+    PUSHBUTTON      "取消",IDCANCEL,101,52,34,14
+    LTEXT           "旧密码",IDC_STATIC,7,8,25,10
+    LTEXT           "新密码",IDC_STATIC,7,31,25,8
+    EDITTEXT        IDC_OLDPASS,43,7,137,14,ES_PASSWORD | ES_AUTOHSCROLL
+    EDITTEXT        IDC_NEWPASS,43,29,137,14,ES_PASSWORD | ES_AUTOHSCROLL
+END
+
+IDD_PRIMARY_NEWS DIALOG 0, 0, 493, 278
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "要闻管理"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "关闭",IDOK,453,257,33,14
+    CONTROL         "List1",IDC_LIST,"SysListView32",LVS_REPORT | WS_BORDER | WS_TABSTOP,7,7,479,243
+    DEFPUSHBUTTON   "修改",IDC_MODIFY,412,257,33,14
+END
+
+IDD_DB_SERVER_DLG DIALOGEX 0, 0, 261, 332
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "服务器配置信息"
+FONT 10, "System", 0, 0, 0x0
+BEGIN
+    CONTROL         "SQL Server",IDC_SQLSERVER,"Button",BS_AUTORADIOBUTTON | WS_GROUP,164,28,53,10
+    CONTROL         "Oracle",IDC_ORACEL,"Button",BS_AUTORADIOBUTTON,164,42,37,10
+    CONTROL         "MySQL",IDC_MYSQL,"Button",BS_AUTORADIOBUTTON,164,56,40,10
+    COMBOBOX        IDC_DBSERVER,70,18,76,69,CBS_DROPDOWN | CBS_AUTOHSCROLL | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_USER,70,32,76,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_PASS,70,46,76,12,ES_PASSWORD | ES_AUTOHSCROLL
+    EDITTEXT        IDC_PORT,70,60,76,14,ES_AUTOHSCROLL
+    COMBOBOX        IDC_COMBO_CODE,70,76,76,74,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_PIC_DIR,24,119,222,14,ES_AUTOHSCROLL
+    CONTROL         "生成缩略图",IDC_CHECK_THUMB,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,25,138,55,10
+    EDITTEXT        IDC_EDIT_THUMBNAME,163,137,83,14,ES_AUTOHSCROLL
+    CONTROL         "映射网络驱动器模式",IDC_FILE_SEND_TYPE,"Button",BS_AUTORADIOBUTTON | WS_GROUP,36,175,88,10
+    CONTROL         "FTP",IDC_FTP,"Button",BS_AUTORADIOBUTTON,140,175,29,10
+    EDITTEXT        IDC_FILE_SAVE_DIR,24,222,174,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "选择映射目录",IDC_BUTTON_TEST,200,222,53,14
+    EDITTEXT        IDC_FILE_SERVER_NAME,69,239,89,14,ES_AUTOHSCROLL
+    CONTROL         "匿名",IDC_CHECK_ANONYMOUS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,165,258,32,10
+    EDITTEXT        IDC_FILE_SERVER_USER_NAME,69,256,89,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_FILE_SERVER_PASSWORD,69,273,89,14,ES_PASSWORD | ES_AUTOHSCROLL
+    EDITTEXT        IDC_FILE_SERVER_PORT,69,290,89,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "确定",IDOK,92,311,32,14
+    PUSHBUTTON      "取消",IDCANCEL,135,311,32,14
+    LTEXT           "服务器",IDC_STATIC,26,21,28,9
+    LTEXT           "密码",IDC_STATIC,26,47,28,9
+    LTEXT           "用户名",IDC_STATIC,26,34,28,9
+    GROUPBOX        "图片属性",IDC_STATIC,7,94,247,61
+    LTEXT           "图片存储目录",IDC_STATIC,21,210,49,8
+    GROUPBOX        "数据库类型",IDC_STATIC,153,14,92,59
+    LTEXT           "图片绝对路径（附件URL访问路径请以“/”结尾）",IDC_STATIC,21,106,180,8
+    LTEXT           "端口",IDC_STATIC,26,63,17,8
+    LTEXT           "数据库编码",IDC_STATIC,26,77,41,8
+    GROUPBOX        "图片传送方式",IDC_STATIC,7,160,247,33
+    GROUPBOX        "数据库服务器配置参数",IDC_STATIC,7,7,247,85
+    GROUPBOX        "文件服务器配置参数",IDC_STATIC,7,197,247,111
+    LTEXT           "服务器",IDC_STATIC,21,242,25,8
+    LTEXT           "用户名",IDC_STATIC,21,259,25,8
+    LTEXT           "密码",IDC_STATIC,21,275,17,8
+    LTEXT           "端口",IDC_STATIC,21,292,17,8
+    LTEXT           "缩略图前缀名",IDC_STATIC,111,139,49,8
+END
+
+IDD_SEL_CONTENT DIALOG 0, 0, 195, 66
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "数据库"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,55,45,34,14
+    PUSHBUTTON      "取消",IDCANCEL,105,45,34,14
+    LTEXT           "请选择数据库",IDC_PROMPT,8,20,68,8
+    COMBOBOX        IDC_CONTENT,80,19,99,78,CBS_DROPDOWN | CBS_AUTOHSCROLL | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_OPERATOR_UNIT DIALOGEX 0, 0, 287, 284
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "数据表字段信息"
+FONT 10, "System", 0, 0, 0x0
+BEGIN
+    COMBOBOX        IDC_UNIT_NAME,49,7,88,78,CBS_DROPDOWN | CBS_AUTOHSCROLL | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "主键",IDC_CHECK_KEY,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,24,86,36,10
+    CONTROL         "保存为缓存值",IDC_CHECK_CACHE_VALUE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,67,86,64,10
+    EDITTEXT        IDC_EDIT_PROCESS_ORDER,185,85,23,14,ES_AUTOHSCROLL | WS_GROUP
+    CONTROL         "",IDC_SPIN1,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,206,85,10,14
+    COMBOBOX        IDC_COMBO_UNIT_NAME,51,132,93,142,CBS_DROPDOWNLIST | CBS_AUTOHSCROLL | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT_DEFAULT,51,147,230,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "添加",IDC_BUTTON_ADD,150,131,29,14
+    CONTROL         "",IDC_LIST_UNIT_COMBO,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,51,165,229,91
+    PUSHBUTTON      "向上",IDC_BUTTON_UP,14,185,29,14
+    PUSHBUTTON      "向下",IDC_BUTTON_DOWN,14,204,29,14
+    PUSHBUTTON      "删除",IDC_BUTTON_DEL,14,223,29,14
+    DEFPUSHBUTTON   "确定",IDOK,104,263,34,14
+    PUSHBUTTON      "取消",IDCANCEL,154,263,34,14
+    EDITTEXT        IDC_UNIT_TYPE,49,25,88,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_UNIT_LEN,49,45,88,14,ES_AUTOHSCROLL
+    LTEXT           "字段名称",IDC_STATIC,13,9,33,8
+    LTEXT           "最大长度",IDC_STATIC,13,47,33,8
+    LTEXT           "默认值",IDC_STATIC,16,150,25,8
+    GROUPBOX        "要素组合",IDC_STATIC,7,115,273,148
+    LTEXT           "处理优先级",IDC_STATIC,142,87,41,8
+    LTEXT           "字段类型",IDC_STATIC,13,27,33,8
+    LTEXT           "（0为最高级）",IDC_STATIC,219,86,53,8
+    LTEXT           "要素名",IDC_STATIC,16,134,25,8
+    LTEXT           "缺省值",IDC_STATIC,143,47,25,8
+    EDITTEXT        IDC_UNIT_DEFAULT,179,45,88,14,ES_AUTOHSCROLL
+    LTEXT           "允许为空",IDC_STATIC,143,27,33,8
+    EDITTEXT        IDC_UNIT_NULL,179,25,88,14,ES_AUTOHSCROLL
+    LTEXT           "主键情况",IDC_STATIC,143,9,33,8
+    EDITTEXT        IDC_UNIT_KEY,179,7,88,14,ES_AUTOHSCROLL
+    GROUPBOX        "要素处理",IDC_STATIC,7,65,273,47
+END
+
+IDD_DATABASE_INFO DIALOG 0, 0, 260, 226
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "服务器数据库信息"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,179,205,34,14
+    PUSHBUTTON      "取消",IDCANCEL,220,205,34,14
+    CONTROL         "Tree1",IDC_TREE,"SysTreeView32",WS_BORDER | WS_TABSTOP,7,7,246,190
+END
+
+IDD_VIEW_DATATABLE DIALOG 0, 0, 313, 230
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "导入服务器栏目"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "关闭",IDOK,269,209,37,14
+    LTEXT           "选择数据表",IDC_STATIC,7,9,41,8
+    COMBOBOX        IDC_COMBO_TABLE,55,7,84,97,CBS_DROPDOWNLIST | CBS_AUTOHSCROLL | WS_VSCROLL | WS_TABSTOP
+    LISTBOX         IDC_LIST_SELECTING_FIELD,30,40,108,71,LBS_MULTIPLESEL | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "选择数据表字段",IDC_STATIC,7,25,57,8
+    LISTBOX         IDC_LIST_SELECTED_FIELD,198,40,108,71,LBS_MULTIPLESEL | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "List3",IDC_LIST_CONTENT,"SysListView32",LVS_REPORT | WS_BORDER | WS_TABSTOP,7,128,299,75
+    PUSHBUTTON      ">>",IDC_ADD,152,52,34,14
+    PUSHBUTTON      "<<",IDC_DEL,152,82,34,14
+    LTEXT           "已选数据表字段",IDC_STATIC,197,25,57,8
+    LTEXT           "数据表内容",IDC_STATIC,7,115,41,8
+END
+
+IDD_URL_DRAGLIST DIALOGEX 0, 0, 355, 243
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "手动采编文章"
+FONT 10, "System", 0, 0, 0x0
+BEGIN
+    PUSHBUTTON      "删除",IDC_DEL_URL,193,222,34,14
+    DEFPUSHBUTTON   "确定",IDOK,275,222,34,14
+    PUSHBUTTON      "取消",IDCANCEL,315,222,34,14
+    PUSHBUTTON      "清空",IDC_CLEAR_URL,234,222,34,14
+    CONTROL         "List1",IDC_LIST_URL,"SysListView32",LVS_REPORT | WS_BORDER | WS_TABSTOP,7,7,341,175
+    PUSHBUTTON      "粘贴",IDC_PASTE_URL_CLIPBOARD,151,222,34,14
+    LTEXT           "规则",IDC_STATIC,9,189,17,8
+    COMBOBOX        IDC_COMBO_RULE,30,188,93,78,CBS_DROPDOWNLIST | CBS_AUTOHSCROLL | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "URL",IDC_STATIC,9,206,15,8
+    EDITTEXT        IDC_URL,30,204,318,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "添加",IDC_ADD_URL,110,222,34,14
+    LTEXT           "可选择通用规则",IDC_STATIC,144,190,89,8
+    CONTROL         150,IDC_STATIC,"Static",SS_BITMAP,130,190,8,8,WS_EX_TRANSPARENT
+END
+
+IDD_LIST_VIEW DIALOG 0, 0, 187, 99
+STYLE DS_SETFONT | WS_CHILD
+FONT 10, "System"
+BEGIN
+    CONTROL         "List1",IDC_LIST,"SysListView32",LVS_REPORT | WS_BORDER | WS_TABSTOP,7,7,60,50
+END
+
+IDD_EXPORT DIALOG 0, 0, 208, 108
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "数据导出对话框"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,67,87,29,14
+    PUSHBUTTON      "取消",IDCANCEL,112,87,29,14
+    GROUPBOX        "导出类型",IDC_STATIC,7,7,194,34
+    LTEXT           "文件保存在",IDC_STATIC,7,45,41,8
+    EDITTEXT        IDC_FILE_DIR,25,62,162,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BROWSE,189,62,12,14
+    CONTROL         "XML文件",IDC_XML,"Button",BS_AUTORADIOBUTTON | WS_GROUP,30,22,47,10
+    CONTROL         "TXT文件",IDC_TXT,"Button",BS_AUTORADIOBUTTON,85,22,45,10
+    CONTROL         "蓝网工程",IDC_LANWAN,"Button",BS_AUTORADIOBUTTON,138,22,48,10
+END
+
+IDD_SERVER_TABLE DIALOGEX 0, 0, 232, 115
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "数据表"
+FONT 10, "System", 0, 0, 0x0
+BEGIN
+    COMBOBOX        IDC_CONTENT,61,7,113,78,CBS_DROPDOWN | CBS_AUTOHSCROLL | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "允许重发",IDC_CHECK_REPEAT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,178,8,45,10
+    CONTROL         "预处理",IDC_TABLE_TYPE,"Button",BS_AUTORADIOBUTTON | WS_GROUP,16,43,36,10
+    CONTROL         "文章",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,60,43,28,10
+    CONTROL         "图片",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON,96,43,27,10
+    CONTROL         "后处理",IDC_RADIO4,"Button",BS_AUTORADIOBUTTON,131,43,37,10
+    CONTROL         "转向链接",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON,176,43,45,10
+    EDITTEXT        IDC_PROCESS_ORDER,49,68,34,14,ES_AUTOHSCROLL | ES_NUMBER | WS_GROUP
+    CONTROL         "",IDC_SPIN1,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,82,68,9,14
+    DEFPUSHBUTTON   "确定",IDOK,74,94,34,14
+    PUSHBUTTON      "取消",IDCANCEL,124,94,34,14
+    LTEXT           "（最先处理为1，依次类推）",IDC_STATIC,91,71,102,8
+    LTEXT           "请选择数据表",IDC_PROMPT,7,8,50,11
+    GROUPBOX        "数据表类型",IDC_STATIC,7,27,218,36
+    LTEXT           "处理优先级",IDC_STATIC,8,70,41,8
+END
+
+IDD_SEARCH DIALOG 0, 0, 237, 98
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "查找"
+FONT 10, "System"
+BEGIN
+    CONTROL         "标题",IDC_CHECK_TITLE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,44,32,10
+    CONTROL         "内容",IDC_CHECK_CONTENT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,60,32,10
+    CONTROL         "全字匹配",IDC_CHECK_ALL,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,80,48,10
+    DEFPUSHBUTTON   "查找下一个",IDC_SEARCH_NEXT,180,7,50,14
+    PUSHBUTTON      "取消",IDCANCEL,180,24,50,14
+    LTEXT           "查找目标",IDC_STATIC,8,8,33,8
+    GROUPBOX        "查看",IDC_STATIC,7,30,169,47
+    COMBOBOX        IDC_TARGET,45,7,129,99,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_COLUMNCLASS_INFO DIALOG 0, 0, 260, 226
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "服务器栏目信息"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "关闭",IDOK,219,205,34,14
+    CONTROL         "Tree1",IDC_TREE,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | TVS_LINESATROOT | WS_BORDER | WS_TABSTOP,7,7,246,190
+    PUSHBUTTON      "指定",IDC_APPLY,180,205,34,14
+END
+
+IDD_SERVER_COLUMN DIALOG 0, 0, 187, 69
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "服务器栏目信息"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,40,48,50,14
+    PUSHBUTTON      "取消",IDCANCEL,97,48,50,14
+    LTEXT           "栏目名称",IDC_STATIC,7,11,33,8
+    LTEXT           "栏目ID",IDC_STATIC,7,28,24,8
+    EDITTEXT        IDC_COLUMN_NAME,46,8,134,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_COLUMN_ID,46,26,134,14,ES_AUTOHSCROLL
+END
+
+IDD_RULE DIALOG 0, 0, 187, 91
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "规则"
+FONT 10, "System"
+BEGIN
+    EDITTEXT        IDC_RULE_NAME,46,7,134,14,ES_AUTOHSCROLL
+    CONTROL         "GB2312",IDC_ENCODING_TYPE,"Button",BS_AUTORADIOBUTTON | WS_GROUP,37,43,42,10
+    CONTROL         "UTF-8",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,101,43,35,10
+    DEFPUSHBUTTON   "确定",IDOK,58,70,34,14
+    PUSHBUTTON      "取消",IDCANCEL,105,70,34,14
+    LTEXT           "规则名称",IDC_STATIC,7,9,36,8
+    GROUPBOX        "网页编码",IDC_STATIC,7,25,173,40
+END
+
+IDD_ALTER_TOPIC DIALOGEX 0, 0, 190, 80
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "更改文章属性"
+FONT 10, "System", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,52,59,35,14
+    PUSHBUTTON      "取消",IDCANCEL,103,59,35,14
+    LTEXT           "文章要素",IDC_STATIC,9,10,33,8
+    LTEXT           "处理类型",IDC_STATIC,9,25,33,8
+    COMBOBOX        IDC_TOPIC_UNIT,53,10,93,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_PROCESS_TYPE,53,25,93,82,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "内容",IDC_STATIC,9,41,17,8
+    EDITTEXT        IDC_VALUE,53,41,130,13,ES_AUTOHSCROLL
+END
+
+IDD_IMPORT_SERVER_COLUMN DIALOGEX 0, 0, 449, 286
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "更新服务器栏目"
+FONT 10, "System", 0, 0, 0x0
+BEGIN
+    COMBOBOX        IDC_COMBO_DATABASE,187,2,84,86,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_TABLE,358,1,84,97,CBS_DROPDOWNLIST | CBS_AUTOHSCROLL | WS_VSCROLL | WS_TABSTOP
+    LISTBOX         IDC_LIST_SELECTING_FIELD,165,31,108,66,LBS_MULTIPLESEL | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      ">>",IDC_ADD,287,41,34,14
+    LISTBOX         IDC_LIST_SELECTED_FIELD,334,31,108,66,LBS_MULTIPLESEL | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "<<",IDC_DEL,287,71,34,14
+    CONTROL         "List3",IDC_LIST_CONTENT,"SysListView32",LVS_REPORT | WS_BORDER | WS_TABSTOP,139,114,303,69
+    EDITTEXT        IDC_EDIT_ROOT_VALUE,219,188,216,14,ES_AUTOHSCROLL
+    CONTROL         "List3",IDC_LIST_FIELD_MAP,"SysListView32",LVS_REPORT | WS_BORDER | WS_TABSTOP,139,214,304,47
+    DEFPUSHBUTTON   "更新",IDC_UPDATE,366,265,37,14
+    DEFPUSHBUTTON   "关闭",IDOK,405,265,37,14
+    LTEXT           "选择数据表",IDC_STATIC,311,3,41,8
+    LTEXT           "选择数据表字段",IDC_STATIC,140,17,57,8
+    LTEXT           "已选数据表字段",IDC_STATIC,333,17,57,8
+    LTEXT           "字段映射关系",IDC_STATIC,140,203,49,8
+    LTEXT           "选择数据库",IDC_STATIC,140,3,41,8
+    LTEXT           "数据表内容",IDC_STATIC,140,102,41,8
+    CONTROL         "Progress1",IDC_PROGRESS_UPDATE,"msctls_progress32",WS_BORDER,4,265,360,14
+    CONTROL         "",IDC_TREE_SERVER_COLUMNS,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | TVS_LINESATROOT | WS_BORDER | WS_HSCROLL | WS_TABSTOP,4,14,128,247
+    LTEXT           "已导入服务器栏目",IDC_STATIC,4,3,65,8
+    LTEXT           "设置服务器栏目根值",IDC_STATIC,140,190,73,8
+END
+
+IDD_ALTER_PICTURE DIALOGEX 0, 0, 190, 64
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "更改图片说明内容"
+FONT 10, "System", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,60,43,35,14
+    PUSHBUTTON      "取消",IDCANCEL,102,43,35,14
+    LTEXT           "处理类型",-1,9,8,33,8
+    COMBOBOX        IDC_PROCESS_TYPE,53,8,93,82,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "内容",-1,9,24,17,8
+    EDITTEXT        IDC_VALUE,53,24,130,13,ES_AUTOHSCROLL
+END
+
+IDD_FTP_SERVER DIALOGEX 0, 0, 316, 229
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "FTP服务器信息"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_LIST_SERVER_CONTENT,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,7,19,302,186
+    PUSHBUTTON      "",IDC_BUTTON_BACK,291,6,18,14,BS_BITMAP
+    EDITTEXT        IDC_EDIT_DIR,7,7,285,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "确定",IDOK,113,208,38,14
+    PUSHBUTTON      "取消",IDCANCEL,158,208,38,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "CompanyName", "海军政治部"
+            VALUE "FileDescription", "WebDataMining MFC Application"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "WebDataMining.exe"
+            VALUE "LegalCopyright", "(C) 海军政治部。保留所有权利。"
+            VALUE "OriginalFilename", "WebDataMining.exe"
+            VALUE "ProductName", "WebDataMining Application"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 63
+    END
+
+    IDD_INFO_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 52
+    END
+
+    IDD_RULE_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 227
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 116
+    END
+
+    IDD_ENTRY_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 265
+        VERTGUIDE, 37
+        TOPMARGIN, 4
+        BOTTOMMARGIN, 207
+    END
+
+    IDD_RULEGROUP_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 151
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 143
+    END
+
+    IDD_DBLOGIN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 140
+        VERTGUIDE, 45
+        VERTGUIDE, 131
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 109
+    END
+
+    IDD_TOPIC_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 6
+        RIGHTMARGIN, 381
+        VERTGUIDE, 35
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 277
+    END
+
+    IDD_PICTURE_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 347
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 136
+    END
+
+    IDD_SCHEDULE_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 278
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 215
+    END
+
+    IDD_EVERYDAY_DLG, DIALOG
+    BEGIN
+    END
+
+    IDD_EVERYWEEK_DLG, DIALOG
+    BEGIN
+    END
+
+    IDD_EVERYMONTH_DLG, DIALOG
+    BEGIN
+    END
+
+    IDD_SCHEDULE_LIST_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 271
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 143
+    END
+
+    IDD_TOPIC_PUBLISH_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 427
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 267
+    END
+
+    IDD_TOPIC_LIST_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 87
+    END
+
+    IDD_OPTIONS_GENERAL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 245
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 175
+    END
+
+    IDD_OPTIONS_DATABASE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 245
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 175
+    END
+
+    IDD_OPTIONS_WDMCONFIG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 245
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 175
+    END
+
+    IDD_PICTURE_LIST_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 319
+        BOTTOMMARGIN, 136
+    END
+
+    IDD_OPTIONS_PUBCONFIG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 245
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 175
+    END
+
+    IDD_SEL_RECENT_TOPIC, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 153
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 69
+    END
+
+    IDD_USER_LOGIN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 298
+        VERTGUIDE, 45
+        VERTGUIDE, 124
+        TOPMARGIN, 7
+    END
+
+    IDD_LOGS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 410
+        TOPMARGIN, 5
+        BOTTOMMARGIN, 255
+    END
+
+    IDD_USER_MANAGE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 300
+        VERTGUIDE, 37
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 217
+        HORZGUIDE, 203
+    END
+
+    IDD_CLIPBOARD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 273
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 186
+    END
+
+    IDD_MODIFY_USERPASS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 66
+    END
+
+    IDD_PRIMARY_NEWS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 486
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 271
+    END
+
+    IDD_DB_SERVER_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 254
+        VERTGUIDE, 69
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 325
+    END
+
+    IDD_SEL_CONTENT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 188
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 59
+    END
+
+    IDD_OPERATOR_UNIT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 280
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 277
+    END
+
+    IDD_DATABASE_INFO, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 253
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 219
+    END
+
+    IDD_VIEW_DATATABLE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 306
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 223
+    END
+
+    IDD_URL_DRAGLIST, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 348
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 236
+    END
+
+    IDD_LIST_VIEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 92
+    END
+
+    IDD_EXPORT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 201
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 101
+    END
+
+    IDD_SERVER_TABLE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 225
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 108
+    END
+
+    IDD_SEARCH, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 230
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 91
+    END
+
+    IDD_COLUMNCLASS_INFO, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 253
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 219
+    END
+
+    IDD_SERVER_COLUMN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 62
+    END
+
+    IDD_RULE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 84
+    END
+
+    IDD_ALTER_TOPIC, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 183
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 73
+    END
+
+    IDD_IMPORT_SERVER_COLUMN, DIALOG
+    BEGIN
+        LEFTMARGIN, 4
+        RIGHTMARGIN, 442
+        BOTTOMMARGIN, 279
+        HORZGUIDE, 260
+    END
+
+    IDD_ALTER_PICTURE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 183
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 57
+    END
+
+    IDD_FTP_SERVER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 309
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 222
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_RULE_DLG DLGINIT
+BEGIN
+    IDC_PROCESS_TYPE, 0x403, 15, 0
+0xc3d3, 0xf3ba, 0xe6c3, 0xceb2, 0xfdca, 0xa3b1, 0xe6b4, "\000" 
+    IDC_PROCESS_TYPE, 0x403, 17, 0
+0xbec9, 0xfdb3, 0xb0c7, 0xe6c3, 0xf9cb, 0xd0d3, 0xdac4, 0xddc8, "\000" 
+    IDC_PROCESS_TYPE, 0x403, 17, 0
+0xbec9, 0xfdb3, 0xf3ba, 0xe6c3, 0xf9cb, 0xd0d3, 0xdac4, 0xddc8, "\000" 
+    IDC_PROCESS_TYPE, 0x403, 13, 0
+0xbec9, 0xfdb3, 0xbeb1, 0xedc9, 0xdac4, 0xddc8, "\000" 
+    IDC_SAVE_TYPE, 0x403, 5, 0
+0xfdd2, 0xeab1, "\000" 
+    IDC_SAVE_TYPE, 0x403, 5, 0
+0xeab1, 0xe2cc, "\000" 
+    IDC_SAVE_TYPE, 0x403, 5, 0
+0xb1b8, 0xeab1, "\000" 
+    IDC_SAVE_TYPE, 0x403, 5, 0
+0xdac4, 0xddc8, "\000" 
+    IDC_SAVE_TYPE, 0x403, 5, 0
+0xb1ca, 0xe4bc, "\000" 
+    IDC_SAVE_TYPE, 0x403, 5, 0
+0xf7d7, 0xdfd5, "\000" 
+    IDC_SAVE_TYPE, 0x403, 5, 0
+0xb4c0, 0xb4d4, "\000" 
+    0
+END
+
+IDD_EVERYMONTH_DLG DLGINIT
+BEGIN
+    IDC_COMBO_NUM, 0x403, 5, 0
+0xbbd2, 0xf6b8, "\000" 
+    IDC_COMBO_NUM, 0x403, 5, 0
+0xfeb6, 0xf6b8, "\000" 
+    IDC_COMBO_NUM, 0x403, 5, 0
+0xfdc8, 0xf6b8, "\000" 
+    IDC_COMBO_NUM, 0x403, 5, 0
+0xc4cb, 0xf6b8, "\000" 
+    IDC_COMBO_DAY, 0x403, 7, 0
+0xc7d0, 0xdac6, 0xbbd2, "\000" 
+    IDC_COMBO_DAY, 0x403, 7, 0
+0xc7d0, 0xdac6, 0xfeb6, "\000" 
+    IDC_COMBO_DAY, 0x403, 7, 0
+0xc7d0, 0xdac6, 0xfdc8, "\000" 
+    IDC_COMBO_DAY, 0x403, 7, 0
+0xc7d0, 0xdac6, 0xc4cb, "\000" 
+    IDC_COMBO_DAY, 0x403, 7, 0
+0xc7d0, 0xdac6, 0xe5ce, "\000" 
+    IDC_COMBO_DAY, 0x403, 7, 0
+0xc7d0, 0xdac6, 0xf9c1, "\000" 
+    IDC_COMBO_DAY, 0x403, 7, 0
+0xc7d0, 0xdac6, 0xd5c8, "\000" 
+    0
+END
+
+IDD_SCHEDULE_DLG DLGINIT
+BEGIN
+    IDC_TIME_TYPE, 0x403, 5, 0
+0xd6b7, 0xd3d6, "\000" 
+    IDC_TIME_TYPE, 0x403, 5, 0
+0xa1d0, 0xb1ca, "\000" 
+    0
+END
+
+IDD_USER_LOGIN DLGINIT
+BEGIN
+    IDC_COMBO_PRIVS, 0x403, 11, 0
+0xd5c6, 0xa8cd, 0xd9b2, 0xf7d7, 0xb1d4, "\000" 
+    IDC_COMBO_PRIVS, 0x403, 11, 0
+0xb5cf, 0xb3cd, 0xdcb9, 0xedc0, 0xb1d4, "\000" 
+    IDC_COMBO_PRIVS, 0x403, 11, 0
+0xacb3, 0xb6bc, 0xdcb9, 0xedc0, 0xb1d4, "\000" 
+    0
+END
+
+IDD_USER_MANAGE DLGINIT
+BEGIN
+    IDC_COMBO_PRIVS, 0x403, 11, 0
+0xd5c6, 0xa8cd, 0xd9b2, 0xf7d7, 0xb1d4, "\000" 
+    IDC_COMBO_PRIVS, 0x403, 11, 0
+0xb5cf, 0xb3cd, 0xdcb9, 0xedc0, 0xb1d4, "\000" 
+    IDC_COMBO_PRIVS, 0x403, 11, 0
+0xacb3, 0xb6bc, 0xdcb9, 0xedc0, 0xb1d4, "\000" 
+    0
+END
+
+IDD_ALTER_TOPIC DLGINIT
+BEGIN
+    IDC_TOPIC_UNIT, 0x403, 5, 0
+0xfdd2, 0xeab1, "\000" 
+    IDC_TOPIC_UNIT, 0x403, 5, 0
+0xeab1, 0xe2cc, "\000" 
+    IDC_TOPIC_UNIT, 0x403, 5, 0
+0xf5cb, 0xeab1, "\000" 
+    IDC_TOPIC_UNIT, 0x403, 5, 0
+0xb1b8, 0xeab1, "\000" 
+    IDC_TOPIC_UNIT, 0x403, 5, 0
+0xb1ca, 0xe4bc, "\000" 
+    IDC_TOPIC_UNIT, 0x403, 5, 0
+0xf7d7, 0xdfd5, "\000" 
+    IDC_TOPIC_UNIT, 0x403, 5, 0
+0xb4c0, 0xb4d4, "\000" 
+    IDC_TOPIC_UNIT, 0x403, 7, 0
+0xd8b9, 0xfcbc, 0xd6d7, "\000" 
+    IDC_TOPIC_UNIT, 0x403, 7, 0
+0xa8d7, 0xe2cc, 0xcab4, "\000" 
+    IDC_TOPIC_UNIT, 0x403, 5, 0
+0xdac4, 0xddc8, "\000" 
+    IDC_PROCESS_TYPE, 0x403, 17, 0
+0xbec9, 0xfdb3, 0xb0c7, 0xe6c3, 0xf9cb, 0xd0d3, 0xdac4, 0xddc8, "\000" 
+    IDC_PROCESS_TYPE, 0x403, 17, 0
+0xbec9, 0xfdb3, 0xf3ba, 0xe6c3, 0xf9cb, 0xd0d3, 0xdac4, 0xddc8, "\000" 
+    IDC_PROCESS_TYPE, 0x403, 17, 0
+0xbec9, 0xfdb3, 0xbeb1, 0xedc9, 0xf9cb, 0xd0d3, 0xdac4, 0xddc8, "\000" 
+    IDC_PROCESS_TYPE, 0x403, 17, 0
+0xc3d3, 0xc2cf, 0xe6c3, 0xc2d0, 0xdac4, 0xddc8, 0xe6cc, 0xbbbb, "\000" 
+    0
+END
+
+IDD_ALTER_PICTURE DLGINIT
+BEGIN
+    IDC_PROCESS_TYPE, 0x403, 17, 0
+0xbec9, 0xfdb3, 0xb0c7, 0xe6c3, 0xf9cb, 0xd0d3, 0xdac4, 0xddc8, "\000" 
+    IDC_PROCESS_TYPE, 0x403, 17, 0
+0xbec9, 0xfdb3, 0xf3ba, 0xe6c3, 0xf9cb, 0xd0d3, 0xdac4, 0xddc8, "\000" 
+    IDC_PROCESS_TYPE, 0x403, 17, 0
+0xbec9, 0xfdb3, 0xbeb1, 0xedc9, 0xf9cb, 0xd0d3, 0xdac4, 0xddc8, "\000" 
+    IDC_PROCESS_TYPE, 0x403, 17, 0
+0xc3d3, 0xc2cf, 0xe6c3, 0xc2d0, 0xdac4, 0xddc8, 0xe6cc, 0xbbbb, "\000" 
+    0
+END
+
+IDD_OPTIONS_WDMCONFIG DLGINIT
+BEGIN
+    IDC_INTERPOLATION, 0x403, 17, 0
+0xeed7, 0xfcbd, 0xf1cf, 0xd8cb, 0xe5b2, 0xb5d6, 0xe3cb, 0xa8b7, "\000" 
+    IDC_INTERPOLATION, 0x403, 27, 0
+0xabcb, 0xdfcf, 0xd4d0, 0xe5b2, 0xb5d6, 0xe3cb, 0xa8b7, 0xa8a3, 0xf1cf, 
+0xd8cb, 0xc7bd, 0xe3b5, 0xa9a3, "\000" 
+    IDC_INTERPOLATION, 0x403, 27, 0
+0xabcb, 0xdfcf, 0xd4d0, 0xe5b2, 0xb5d6, 0xe3cb, 0xa8b7, 0xa8a3, 0xf1cf, 
+0xd8cb, 0xd0d6, 0xc4d0, 0xa9a3, "\000" 
+    IDC_INTERPOLATION, 0x403, 23, 0
+0xa2c1, 0xbdb7, 0xedbe, 0xfdbb, 0xe5b2, 0xb5d6, 0xe3cb, 0xa8b7, 0xa8a3, 
+0xb2d3, 0xa9a3, "\000" 
+    IDC_INTERPOLATION, 0x403, 23, 0
+0xa2c1, 0xbdb7, 0xedbe, 0xfdbb, 0xe5b2, 0xb5d6, 0xe3cb, 0xa8b7, 0xa8a3, 
+0xedc8, 0xa9a3, "\000" 
+    IDC_INTERPOLATION, 0x403, 21, 0
+0xfac7, 0xe6c3, 0xe6bb, 0xc6d6, 0xe3cb, 0xa8b7, 0xa8a3, 0xa3c4, 0xfdba, 
+0xa9a3, "\000" 
+    IDC_INTERPOLATION, 0x403, 14, 0
+0x614c, 0x7a6e, 0x6f63, 0xd073, 0xcbcd, 0xb7e3, 0x00a8, 
+    IDC_INTERPOLATION, 0x403, 13, 0
+0xacb0, 0xd7c3, 0xe5b2, 0xb5d6, 0xe3cb, 0xa8b7, "\000" 
+    0
+END
+
+IDD_DB_SERVER_DLG DLGINIT
+BEGIN
+    IDC_COMBO_CODE, 0x403, 7, 0
+0x6267, 0x3332, 0x3231, "\000" 
+    IDC_COMBO_CODE, 0x403, 4, 0
+0x6267, 0x006b, 
+    IDC_COMBO_CODE, 0x403, 5, 0
+0x7475, 0x3866, "\000" 
+    IDC_COMBO_CODE, 0x403, 8, 0
+0x6e75, 0x6369, 0x646f, 0x0065, 
+    IDC_COMBO_CODE, 0x403, 7, 0
+0x616c, 0x6974, 0x316e, "\000" 
+    IDC_COMBO_CODE, 0x403, 8, 0
+0x6564, 0x6166, 0x6c75, 0x0074, 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// JPG
+//
+
+JPG_BACKGROUND          JPG                     "res\\bk.jpg"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Ribbon
+//
+
+IDR_RIBBON              RT_RIBBON_XML           "res\\ribbon.mfcribbon-ms"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDP_OLE_INIT_FAILED     "OLE 初始化失败。请确保 OLE 库是正确的版本。"
+    IDS_MAIN_TOOLBAR        "标准"
+    IDP_SOCKETS_INIT_FAILED "Windows 套接字初始化失败。"
+END
+
+STRINGTABLE
+BEGIN
+    IDR_MAINFRAME           "新闻采集系统\n\nwdm\n\n\nWebDataMining.Document\nWebDat Document"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_APP_TITLE       "新闻采集系统"
+    AFX_IDS_IDLEMESSAGE     "准备就绪"
+END
+
+STRINGTABLE
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILE_NEW             "创建一个新文档\n新建"
+    ID_FILE_OPEN            "打开一个文档\n打开"
+    ID_FILE_CLOSE           "关闭活动文档t\n关闭"
+    ID_FILE_SAVE            "保存活动文档\n保存"
+    ID_FILE_SAVE_AS         "另存为活动文档\n另存为"
+    ID_FILE_PAGE_SETUP      "更改打印设置\n打印设置"
+    ID_FILE_PRINT_SETUP     "更改打印机选项\n打印安装"
+    ID_FILE_PRINT           "打印活动文档\n打印"
+    ID_FILE_PRINT_PREVIEW   "显示文档打印内容\n打印预览"
+END
+
+STRINGTABLE
+BEGIN
+    ID_VIEW_USER_TOOLBAR8   "显示或隐藏用户工具栏\n激活用户工具栏"
+    ID_VIEW_USER_TOOLBAR9   "显示或隐藏用户工具栏\n激活用户工具栏"
+    ID_VIEW_USER_TOOLBAR10  "显示或隐藏用户工具栏\n激活用户工具栏"
+    ID_VIEW_EXTRACT_SOURCE  "显示或隐藏采集源窗口\n激活采集源窗口"
+    ID_VIEW_OUTPUT          "显示或隐藏输出窗口\n激活输出窗口"
+    ID_TOOLS_ENTRY          "用户自定义工具\n用户工具"
+    ID_USER_TOOL1           "激活用户自定义工具\n用户工具"
+    ID_USER_TOOL2           "激活用户自定义工具\n用户工具"
+    ID_USER_TOOL3           "激活用户自定义工具\n用户工具"
+    ID_USER_TOOL4           "激活用户自定义工具\n用户工具"
+    ID_USER_TOOL5           "激活用户自定义工具\n用户工具"
+    ID_USER_TOOL6           "激活用户自定义工具\n用户工具"
+    ID_USER_TOOL7           "激活用户自定义工具\n用户工具"
+    ID_USER_TOOL8           "激活用户自定义工具\n用户工具"
+    ID_USER_TOOL9           "激活用户自定义工具\n用户工具"
+    ID_USER_TOOL10          "激活用户自定义工具\n用户工具"
+END
+
+STRINGTABLE
+BEGIN
+    ID_APP_ABOUT            "显示程序信息，版本和版权\n关于"
+    ID_APP_EXIT             "退出程序，提示保存文档\n退出"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILE_MRU_FILE1       "打开这个文档"
+    ID_FILE_MRU_FILE2       "打开这个文档"
+    ID_FILE_MRU_FILE3       "打开这个文档"
+    ID_FILE_MRU_FILE4       "打开这个文档"
+    ID_FILE_MRU_FILE5       "打开这个文档"
+    ID_FILE_MRU_FILE6       "打开这个文档"
+    ID_FILE_MRU_FILE7       "打开这个文档"
+    ID_FILE_MRU_FILE8       "打开这个文档"
+    ID_FILE_MRU_FILE9       "打开这个文档"
+    ID_FILE_MRU_FILE10      "打开这个文档"
+    ID_FILE_MRU_FILE11      "打开这个文档"
+    ID_FILE_MRU_FILE12      "打开这个文档"
+    ID_FILE_MRU_FILE13      "打开这个文档"
+    ID_FILE_MRU_FILE14      "打开这个文档"
+    ID_FILE_MRU_FILE15      "打开这个文档"
+    ID_FILE_MRU_FILE16      "打开这个文档"
+END
+
+STRINGTABLE
+BEGIN
+    ID_NEXT_PANE            "切换到下一个窗口\n下一窗口"
+    ID_PREV_PANE            "切换到上一个窗口\n上一窗口"
+END
+
+STRINGTABLE
+BEGIN
+    ID_WINDOW_SPLIT         "活动窗口分栏显示\n分栏"
+END
+
+STRINGTABLE
+BEGIN
+    ID_EDIT_CLEAR           "清除选中内容\n清除"
+    ID_EDIT_CLEAR_ALL       "清除所有内容\n清空"
+    ID_EDIT_COPY            "拷贝选中内容到剪切板\n复制"
+    ID_EDIT_CUT             "剪切选中内容到剪切板\n剪切"
+    ID_EDIT_FIND            "查找指定内容\n查找"
+    ID_EDIT_PASTE           "插入剪切板内容\n粘贴"
+    ID_EDIT_REPEAT          "重复最后一次操作\n重复"
+    ID_EDIT_REPLACE         "替换指定的内容\n替换"
+    ID_EDIT_SELECT_ALL      "选择整个文档\n全选"
+    ID_EDIT_UNDO            "撤消上一次操作\n撤消"
+    ID_EDIT_REDO            "重做上一次操作\n重做"
+    ID_VIEW_DBSERVER        "显示或隐藏服务器列表窗口\n激活服务器列表窗口"
+    ID_INDICATOR_NETWORK_TYPE "内网"
+END
+
+STRINGTABLE
+BEGIN
+    ID_VIEW_TOOLBAR         "显示或隐藏工具栏\n激活工具栏"
+    ID_VIEW_STATUS_BAR      "显示或隐藏状态栏\n激活状态栏"
+END
+
+STRINGTABLE
+BEGIN
+    ID_VIEW_EXTRACT_RULE    "显示或隐藏采集规则窗口\n激活采集规则窗口"
+    ID_VIEW_USER_TOOLBAR1   "显示或隐藏用户工具栏\n激活用户工具栏"
+    ID_VIEW_USER_TOOLBAR2   "显示或隐藏用户工具栏\n激活用户工具栏"
+    ID_VIEW_USER_TOOLBAR4   "显示或隐藏用户工具栏\n激活用户工具栏"
+    ID_VIEW_USER_TOOLBAR5   "显示或隐藏用户工具栏\n激活用户工具栏"
+    ID_VIEW_USER_TOOLBAR6   "显示或隐藏用户工具栏\n激活用户工具栏"
+    ID_VIEW_USER_TOOLBAR7   "显示或隐藏用户工具栏\n激活用户工具栏"
+END
+
+STRINGTABLE
+BEGIN
+    ID_VIEW_CAPTIONBAR      "显示或隐藏标题栏\n激活标题栏"
+    ID_VIEW_SCHEDULE        "显示或隐藏调度计划窗口\n激活调度计划"
+    ID_VIEW_OUTPUT1         "显示或隐藏输出窗口\n激活输出窗口"
+    ID_VIEW_OUTPUT2         "显示或隐藏输出窗口\n激活输出窗口"
+    ID_VIEW_OUTPUT3         "显示或隐藏输出窗口\n激活输出窗口"
+    ID_VIEW_OUTPUT4         "显示或隐藏输出窗口\n激活输出窗口"
+    ID_VIEW_OUTPUT5         "显示或隐藏输出窗口\n激活输出窗口"
+    ID_VIEW_OUTPUT6         "显示或隐藏输出窗口\n激活输出窗口"
+    ID_VIEW_OUTPUT7         "显示或隐藏输出窗口\n激活输出窗口"
+    ID_VIEW_OUTPUT8         "显示或隐藏输出窗口\n激活输出窗口"
+    ID_VIEW_OUTPUT9         "显示或隐藏输出窗口\n激活输出窗口"
+    ID_VIEW_OUTPUT10        "显示或隐藏输出窗口\n激活输出窗口"
+    ID_COMMON_SEPERATE      "分离选定内容\n分离"
+    ID_COLUMN_DOWNLOAD      "下载选择栏目的所有文章\n下载文章"
+    ID_COLUMN_SEPARATE      "分离选择栏目的所有文章\n分离文章"
+    ID_RULE_NEW             "新建子规则\n新建子规则"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "关闭打印预览模式\n取消打印预览"
+    ID_INDICATOR_DB_STATUS  "数据库已连接"
+    ID_COMMON_DOWNLOAD      "下载选定的内容\n下载"
+    ID_INDICATOR_WORK_THREAD_NUM "当前工作线程数100"
+    ID_INDICATOR_USER_STATUS "当前用户：管理员"
+    ID_INDICATOR_MESSAGE    "MSG"
+    ID_INDICATOR_PICTURE_DIR "图片保存目录 D:\\下载工作目录"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_SCSIZE          "改变窗口大小"
+    AFX_IDS_SCMOVE          "改变窗口位置"
+    AFX_IDS_SCMINIMIZE      "最小化窗口到任务栏"
+    AFX_IDS_SCMAXIMIZE      "使窗口全屏显示"
+    AFX_IDS_SCNEXTWINDOW    "切换到下一个文档窗口"
+    AFX_IDS_SCPREVWINDOW    "切换到上一个文档窗口"
+    AFX_IDS_SCCLOSE         "关闭活动窗口并提示保存文档内容"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_SCRESTORE       "恢复窗口正常显示"
+    AFX_IDS_SCTASKLIST      "激活任务列表"
+END
+
+STRINGTABLE
+BEGIN
+    ID_VIEW_CUSTOMIZE       "定制工具栏和菜单.\n定制"
+END
+
+STRINGTABLE
+BEGIN
+    ID_RULE_DELETE          "删除规则\n删除规则"
+    ID_ROOT_NEW             "新建一个对象\n新建"
+    ID_RULE_EDIT            "编辑规则\n编辑规则"
+    ID_ROOT_SAVE            "保存选择的对象\n保存"
+    ID_ROOT_DELETE          "删除选择的对象\n删除"
+    ID_COLUMN_EDIT          "编辑选择的栏目\n编辑栏目"
+    ID_COLUMN_DELETE        "删除选择的栏目\n删除栏目"
+    ID_COLUMN_SAVE          "保存选择的栏目\n保存栏目"
+    ID_ENTRY_EDIT           "编辑选择的条目\n编辑条目"
+    ID_ENTRY_SAVE           "保存选择的条目\n保存条目"
+    ID_ENTRY_DELETE         "删除选择的条目\n删除条目"
+    ID_ENTRY_DOWNLOAD       "下载选择条目的所有文章\n下载文章"
+    ID_ENTRY_SEPARATE       "分离选择条目的所有文章\n分离文章"
+    ID_COLUMN_NEWENTRY      "创建一个新条目\n新建条目"
+    ID_ENTRY_SELRULE        "选择规则\n选择规则"
+    ID_RULE_SAVE            "保存规则\n保存规则"
+END
+
+STRINGTABLE
+BEGIN
+    ID_MENUITEM32848        "新建规则\n新建规则"
+    ID_TEST                 "发布文章到服务器\n发布"
+    ID_ROOT_FRESH           "刷新显示选择节点内容\n刷新"
+    ID_ROOT_DOWNLOAD        "下载选择节点的所有文章\n下载文章"
+    ID_ROOT_SEPARATE        "分离选择节点的文章内容\n分离文章"
+    ID_TOPIC_EDIT           "编辑选择的文章\n编辑文章"
+    ID_TOPIC_DELETE         "删除选择的文章\n删除文章"
+    ID_TOPIC_SAVE           "保存选择的文章\n保存文章"
+    ID_TOPIC_PUBLISH        "发布选择的文章\n发布文章"
+    ID_PICTURE_EDIT         "编辑图片\n编辑图片"
+    ID_PICTURE_DELETE       "删除图片\n删除图片"
+    ID_PICTURE_SAVE         "保存图片\n保存图片"
+    ID_FILE_CONNECT_DB      "连接或断开数据库\n连接"
+END
+
+STRINGTABLE
+BEGIN
+    ID_TOOL_OPTIONS         "设置程序运行参数\n选项"
+    ID_RULE_TEST            "测试规则的有效性\n测试规则"
+    ID_ROOT_DEL_TOPIC       "删除节点所有文章\n删除文章"
+    ID_COLUMN_DEL_TOPIC     "删除所有文章\n删除文章"
+    ID_ENTRY_DEL_TOPIC      "删除所有文章\n删除文章"
+    ID_COLUMN_NEW           "新建子栏目\n新建子栏目"
+    ID_FILE_SHOW_RECENT_TOPIC "显示最近下载文章\n显示"
+    ID_FILE_SENDTO_SERVER   "发送到内网服务器\n发送"
+    ID_FILE_DEL_OLDTOPICS   "删除所有历史文章\n删除"
+    ID_FILE_CLEAR_OLDURL    "清空URL历史记录\n清空"
+    ID_TOOL_VIEW_LOG        "查看历史日志\\N查看日志"
+    ID_TOOL_USER            "查看所有用户\n查看用户"
+END
+
+STRINGTABLE
+BEGIN
+    ID_TOOL_VIEW_USERS      "查看所有用户\n用户"
+    ID_TOOL_VIEW_LOGS       "查看历史日志\n日志"
+    ID_FILE_LOGIN           "用户登陆系统\n登陆"
+    ID_FILE_DOWNLOAD_MANUAL "手动下载文章\n下载"
+    ID_TOOL_PRIMARY_NEWS    "管理当前发布的要闻\n要闻管理"
+    ID_COLUMN_SCHEDULE      "下载调度计划\n调度计划"
+    ID_ENTRY_SCHEDULE       "下载调度计划\n调度计划"
+    ID_DBSERVER_EDIT        "编辑数据库服务器\n编辑服务器"
+    ID_DBSERVER_DEL         "删除数据库服务器\n删除服务器"
+    ID_DBSERVER_SAVE        "保存数据库服务器\n保存服务器"
+    ID_COLUMN_SET_DBSERVER  "设置服务器\n设置服务器"
+    ID_COLUMN_CANCEL_DBSERVER "取消数据库服务器\n取消服务器"
+    ID_DBSERVER_NEW_DB      "新建数据库\n新建数据库"
+    ID_DATABASE_EDIT        "编辑数据库\n编辑数据库"
+END
+
+STRINGTABLE
+BEGIN
+    ID_DATABASE_DEL         "删除数据库\n删除数据库"
+    ID_DATABASE_SAVE        "保存数据库\n保存数据库"
+    ID_DATABASE_NEW_TABLE   "新建数据表\n新建数据表"
+    ID_OPERATOR_EDIT        "编辑操作\n编辑操作"
+    ID_OPERATOR_DEL         "删除操作\n删除操作"
+    ID_OPERATOR_SAVE        "保存操作\n保存操作"
+    ID_OPERATOR_NEW_UNIT    "新建操作要素\n新建要素"
+    ID_TABLE_EDIT           "编辑数据表\n编辑数据表"
+    ID_TABLE_DEL            "删除数据表\n删除数据表"
+    ID_TABLE_SAVE           "保存数据表\n保存数据表"
+    ID_TABLE_NEW_OPERATOR   "新建操作\n新建操作"
+    ID_UNIT_EDIT            "编辑操作要素\n编辑要素"
+    ID_UNIT_DEL             "删除操作要素\n删除要素"
+    ID_UNIT_SAVE            "保存操作要素\n保存要素"
+    ID_TOPIC_DEL_PICTURE    "删除文章所有图片\n删除图片"
+    ID_FILE_AUTO_SEND       "自动传送下载的文章\n自动"
+END
+
+STRINGTABLE
+BEGIN
+    ID_HELP_TOPIC           "显示帮助主题\n帮助主题"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILE_SHOW_TOPCOLUMN  "选择频道\n频道"
+    ID_SENDTOPIC            "发送文章\n发送"
+    ID_SENDTOPIC_SERVER     "发布文章到服务器\n发布"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILE_IMPORT          "导入数据\n导入"
+    ID_FILE_EXPORT          "导出数据\n导出"
+    ID_COLUMN_FRESH         "刷新显示栏目内容\n刷新栏目"
+    ID_ENTRY_FRESH          "刷新显示条目内容\n刷新条目"
+    ID_EXPORT               "导出数据\n导出"
+    ID_IMPORT               "导入数据\n导入"
+    ID_SEARCH               "查找文章\n查找"
+    ID_TOOL_SEARCH          "查找文章\n查找"
+    ID_COLUMN_SET_CHANNELID "设置服务器频道ID\n设置频道ID"
+    ID_ENTRY_SET_COLUMNID   "设置服务器栏目ID\n设置栏目ID"
+    ID_COLUMN_SET_SUBJECT   "设置专题词\n设置专题词"
+END
+
+STRINGTABLE
+BEGIN
+    ID_COLUMN_SET_REL1      "设置关联词\n设置关联词"
+    ID_TOPIC_CUT            "剪切文章\n剪切文章"
+    ID_TOPIC_PASTE          "复制图片\n复制图片"
+    ID_PICTURE_CUT          "剪切图片\n剪切图片"
+    ID_ENTRY_PASTE_TOPIC    "粘贴文章\n粘贴文章"
+    ID_TOPIC_PASTE_PIC      "粘贴图片\n粘贴图片"
+    ID_ALTER_TOPIC_UNIT     "更改文章属性\n更改文章属性"
+    ID_STOP_ALL_DOWNLOAD    "停止所有下载任务\n停止"
+    ID_ENTRY_NEW_TOPIC      "新建文章\n新建文章"
+    ID_TOOL_IMPORT_SERVER_COLUMN "导入服务器栏目\n导入服务器栏目"
+    ID_TOOL_INIT_TOOLBAR    "恢复初始界面\n恢复初始界面"
+    ID_COLUMN_COLLAPSE      "收缩所有栏目\n收缩栏目"
+    ID_TOOL_BACKUP_SERVER_COLUMNS "备份服务器栏目\n备份服务器栏目"
+    ID_TOOL_REBACKUP_SERVER_COLUMN "还原服务器栏目\n还原服务器栏目"
+END
+
+#endif    // Chinese (Simplified, PRC) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#include "res\WebDataMining.rc2"  // 非 Microsoft Visual C++ 编辑的资源
+#include "l.CHS\afxres.rc"      // 标准组件
+#include "l.CHS\afxprint.rc"    // 打印/打印预览资源
+#if !defined(_AFXDLL)
+#include "l.CHS\afxribbon.rc"        // MFC 功能区和控件条资源
+#endif
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

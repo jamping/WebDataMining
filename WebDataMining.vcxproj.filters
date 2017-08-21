@@ -1,0 +1,1353 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{236221c6-f7b5-4a73-b583-527a7c693f2e}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="BaseObject">
+      <UniqueIdentifier>{574fc7d5-920d-41a9-93bc-f244e9912402}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ado">
+      <UniqueIdentifier>{8ca51336-d2f6-4be6-aa58-ed32edb1de7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataObject">
+      <UniqueIdentifier>{438c7908-ba14-4260-914d-ed301387ae9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TinyXml">
+      <UniqueIdentifier>{63c9c2ce-ad6b-4e91-af33-b7cc4aa71231}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HelpClass">
+      <UniqueIdentifier>{c65aa32e-73f2-49eb-8f41-1500e15b270b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{f4a9036e-aa6b-4e5b-a8f9-3fab76a93022}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\ListCtrl">
+      <UniqueIdentifier>{345460a0-ea54-470d-969f-99344d552685}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\CheckBoxTree">
+      <UniqueIdentifier>{08f127fb-3062-45ca-9850-5a22a089b266}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\DragCtrl">
+      <UniqueIdentifier>{2525bd77-e97a-4c3e-98d2-0d73a1ec1040}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\AutoComplete">
+      <UniqueIdentifier>{d62966e9-55bc-4879-9dc4-521434580541}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Dlgs">
+      <UniqueIdentifier>{536b4e8c-ebc4-44cf-881f-d54bb639c1f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\MFC">
+      <UniqueIdentifier>{533f20a0-ca14-471d-b398-02afb716d57c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\HelpClass">
+      <UniqueIdentifier>{87fe3064-acbd-466b-80df-bff5161dae69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Thread">
+      <UniqueIdentifier>{51322128-6365-4b6b-9915-5875f50e1b33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\TreeCtrl">
+      <UniqueIdentifier>{cce97e99-e50a-4204-baa8-581d3507da48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="universalcharset">
+      <UniqueIdentifier>{6d1b9b56-5fc2-4993-89f7-888804ec6c22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TagWindow">
+      <UniqueIdentifier>{6c0a8e6e-e5e4-4f9f-845f-704c869dd5dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WDMEngine">
+      <UniqueIdentifier>{54fb09bc-c486-4956-ac9a-a653347d5a67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ftp">
+      <UniqueIdentifier>{0af8427e-9ffc-4f23-b4bc-aa58a1a4143d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\141.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\150.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\307.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\auto.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bitmap1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bitmapco.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bitmapdi.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bk.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\clear.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\config.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\delete.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Essential File.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\export.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\help.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\icon1.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\icon19.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\import.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\log1.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\login.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\missiont.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\optionsimages.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\PC user.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pingdao.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\send.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\show.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Start.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Toolbar256.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ToolbarCold256.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\treeimgl.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\user.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\WebDataMining.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\WebDataMining.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\WebDataMiningDoc.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\发布.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\未命名.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ReadMe.txt">
+      <Filter>UI\MFC</Filter>
+    </None>
+    <None Include="res\ribbon1.mfcribbon-ms" />
+    <None Include="res\writesmall.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\writelarge.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\sort_hc.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\properties_hc.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\menuimages_hc.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\main.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\filesmall.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\filelarge.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\fileview_hc.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\fileview.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\explorer_hc.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\classview_hc.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\classview.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\buttons.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ribbon.mfcribbon-ms" />
+    <None Include="res\tDoc.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\t.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\properties_wnd_hc.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\properties_wnd.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\output_wnd_hc.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\output_wnd.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\file_view_hc.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\file_view.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\class_view_hc.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\class_view.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\menuimages.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\icon20.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\extract_source_hc.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\extract_source.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\extract_rule_hc.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ico00001.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\extract_rule.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\schedule_.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ico00002.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ico00003.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\schedule_hc.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\schedule.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\dbserver.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\dbserver_hc.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ToolbarSmall.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ToolbarLarge.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bitmap2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\writelar.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\writesma.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="universalcharset\Big5Freq.tab">
+      <Filter>universalcharset</Filter>
+    </None>
+    <None Include="universalcharset\EUCKRFreq.tab">
+      <Filter>universalcharset</Filter>
+    </None>
+    <None Include="universalcharset\EUCTWFreq.tab">
+      <Filter>universalcharset</Filter>
+    </None>
+    <None Include="universalcharset\GB2312Freq.tab">
+      <Filter>universalcharset</Filter>
+    </None>
+    <None Include="universalcharset\JISFreq.tab">
+      <Filter>universalcharset</Filter>
+    </None>
+    <None Include="universalcharset\Makefile.am">
+      <Filter>universalcharset</Filter>
+    </None>
+    <None Include="res\bmp00001.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="WebDataMining.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BaseObject.cpp">
+      <Filter>BaseObject</Filter>
+    </ClCompile>
+    <ClCompile Include="CJTreeCtrl.cpp">
+      <Filter>BaseObject</Filter>
+    </ClCompile>
+    <ClCompile Include="ConTabCtrl.cpp">
+      <Filter>BaseObject</Filter>
+    </ClCompile>
+    <ClCompile Include="customtree.cpp">
+      <Filter>BaseObject</Filter>
+    </ClCompile>
+    <ClCompile Include="DataBase.cpp">
+      <Filter>BaseObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>BaseObject</Filter>
+    </ClCompile>
+    <ClCompile Include="ado2.cpp">
+      <Filter>Ado</Filter>
+    </ClCompile>
+    <ClCompile Include="AccessDataBase.cpp">
+      <Filter>DataObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Column.cpp">
+      <Filter>DataObject</Filter>
+    </ClCompile>
+    <ClCompile Include="DatabaseEngine.cpp">
+      <Filter>DataObject</Filter>
+    </ClCompile>
+    <ClCompile Include="DataEngine.cpp">
+      <Filter>DataObject</Filter>
+    </ClCompile>
+    <ClCompile Include="DBServer.cpp">
+      <Filter>DataObject</Filter>
+    </ClCompile>
+    <ClCompile Include="DownloadEngine.cpp">
+      <Filter>DataObject</Filter>
+    </ClCompile>
+    <ClCompile Include="DownloadHttpFile.cpp">
+      <Filter>DataObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Entry.cpp">
+      <Filter>DataObject</Filter>
+    </ClCompile>
+    <ClCompile Include="FileEngine.cpp">
+      <Filter>DataObject</Filter>
+    </ClCompile>
+    <ClCompile Include="HelperObject.cpp">
+      <Filter>DataObject</Filter>
+    </ClCompile>
+    <ClCompile Include="MySQLDataBase.cpp">
+      <Filter>DataObject</Filter>
+    </ClCompile>
+    <ClCompile Include="NewsPicture.cpp">
+      <Filter>DataObject</Filter>
+    </ClCompile>
+    <ClCompile Include="OptionsData.cpp">
+      <Filter>DataObject</Filter>
+    </ClCompile>
+    <ClCompile Include="OracleDatabase.cpp">
+      <Filter>DataObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Rule.cpp">
+      <Filter>DataObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Schedule.cpp">
+      <Filter>DataObject</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerColumn.cpp">
+      <Filter>DataObject</Filter>
+    </ClCompile>
+    <ClCompile Include="SQLDataBase.cpp">
+      <Filter>DataObject</Filter>
+    </ClCompile>
+    <ClCompile Include="SQLServerDataEngine.cpp">
+      <Filter>DataObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Topic.cpp">
+      <Filter>DataObject</Filter>
+    </ClCompile>
+    <ClCompile Include="WDMDatabase.cpp">
+      <Filter>DataObject</Filter>
+    </ClCompile>
+    <ClCompile Include="WDMOperator.cpp">
+      <Filter>DataObject</Filter>
+    </ClCompile>
+    <ClCompile Include="WDMOperatorUnit.cpp">
+      <Filter>DataObject</Filter>
+    </ClCompile>
+    <ClCompile Include="WDMTable.cpp">
+      <Filter>DataObject</Filter>
+    </ClCompile>
+    <ClCompile Include="tinystr.cpp">
+      <Filter>TinyXml</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml.cpp">
+      <Filter>TinyXml</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxmlerror.cpp">
+      <Filter>TinyXml</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxmlparser.cpp">
+      <Filter>TinyXml</Filter>
+    </ClCompile>
+    <ClCompile Include="ChineseCodeLib.cpp">
+      <Filter>HelpClass</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonFunction.cpp">
+      <Filter>HelpClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Des.cpp">
+      <Filter>HelpClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Extract.cpp">
+      <Filter>HelpClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Logs.cpp">
+      <Filter>HelpClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Md5.cpp">
+      <Filter>HelpClass</Filter>
+    </ClCompile>
+    <ClCompile Include="MyTimer.cpp">
+      <Filter>HelpClass</Filter>
+    </ClCompile>
+    <ClCompile Include="ReceiveSocket.cpp">
+      <Filter>HelpClass</Filter>
+    </ClCompile>
+    <ClCompile Include="SQLInfoEnumerator.cpp">
+      <Filter>HelpClass</Filter>
+    </ClCompile>
+    <ClCompile Include="TimerWork.cpp">
+      <Filter>HelpClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Url.cpp">
+      <Filter>HelpClass</Filter>
+    </ClCompile>
+    <ClCompile Include="ComboListCtrl.cpp">
+      <Filter>UI\ListCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="InPlaceCombo.cpp">
+      <Filter>UI\ListCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="InPlaceEdit.cpp">
+      <Filter>UI\ListCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="ListCtrlEx.cpp">
+      <Filter>UI\ListCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="ListViewEx.cpp">
+      <Filter>UI\ListCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="SortHeaderCtrl.cpp">
+      <Filter>UI\ListCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="SortListCtrl.cpp">
+      <Filter>UI\ListCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="TopicListCtrl.cpp">
+      <Filter>UI\ListCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckComboBox.cpp">
+      <Filter>UI\CheckBoxTree</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckTreeCtrl.cpp">
+      <Filter>UI\CheckBoxTree</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckTreeData.cpp">
+      <Filter>UI\CheckBoxTree</Filter>
+    </ClCompile>
+    <ClCompile Include="CDragEdit.cpp">
+      <Filter>UI\DragCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="DragDropListCtrl.cpp">
+      <Filter>UI\DragCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoCompl.cpp">
+      <Filter>UI\AutoComplete</Filter>
+    </ClCompile>
+    <ClCompile Include="Subclass.cpp">
+      <Filter>UI\AutoComplete</Filter>
+    </ClCompile>
+    <ClCompile Include="AlterPictureDlg.cpp">
+      <Filter>UI\Dlgs</Filter>
+    </ClCompile>
+    <ClCompile Include="AlterTopicUnitDlg.cpp">
+      <Filter>UI\Dlgs</Filter>
+    </ClCompile>
+    <ClCompile Include="ColumnClassInfoDlg.cpp">
+      <Filter>UI\Dlgs</Filter>
+    </ClCompile>
+    <ClCompile Include="DatabaseInfoDlg.cpp">
+      <Filter>UI\Dlgs</Filter>
+    </ClCompile>
+    <ClCompile Include="DBServerDlg.cpp">
+      <Filter>UI\Dlgs</Filter>
+    </ClCompile>
+    <ClCompile Include="EntryDlg.cpp">
+      <Filter>UI\Dlgs</Filter>
+    </ClCompile>
+    <ClCompile Include="EveryDayDlg.cpp">
+      <Filter>UI\Dlgs</Filter>
+    </ClCompile>
+    <ClCompile Include="EveryMonthDlg.cpp">
+      <Filter>UI\Dlgs</Filter>
+    </ClCompile>
+    <ClCompile Include="EveryWeekDlg.cpp">
+      <Filter>UI\Dlgs</Filter>
+    </ClCompile>
+    <ClCompile Include="ExportDlg.cpp">
+      <Filter>UI\Dlgs</Filter>
+    </ClCompile>
+    <ClCompile Include="InfoDlg.cpp">
+      <Filter>UI\Dlgs</Filter>
+    </ClCompile>
+    <ClCompile Include="LogDlg.cpp">
+      <Filter>UI\Dlgs</Filter>
+    </ClCompile>
+    <ClCompile Include="LogsDlg.cpp">
+      <Filter>UI\Dlgs</Filter>
+    </ClCompile>
+    <ClCompile Include="ModifyUserPassDlg.cpp">
+      <Filter>UI\Dlgs</Filter>
+    </ClCompile>
+    <ClCompile Include="OptionsDlg.cpp">
+      <Filter>UI\Dlgs</Filter>
+    </ClCompile>
+    <ClCompile Include="OptionsGeneral.cpp">
+      <Filter>UI\Dlgs</Filter>
+    </ClCompile>
+    <ClCompile Include="OptionsPubConfigDlg.cpp">
+      <Filter>UI\Dlgs</Filter>
+    </ClCompile>
+    <ClCompile Include="OptionsWDMConfig.cpp">
+      <Filter>UI\Dlgs</Filter>
+    </ClCompile>
+    <ClCompile Include="PictureDlg.cpp">
+      <Filter>UI\Dlgs</Filter>
+    </ClCompile>
+    <ClCompile Include="PictureListDlg.cpp">
+      <Filter>UI\Dlgs</Filter>
+    </ClCompile>
+    <ClCompile Include="RecentDownloadTopicDateDlg.cpp">
+      <Filter>UI\Dlgs</Filter>
+    </ClCompile>
+    <ClCompile Include="RuleDlg.cpp">
+      <Filter>UI\Dlgs</Filter>
+    </ClCompile>
+    <ClCompile Include="RuleGroupDlg.cpp">
+      <Filter>UI\Dlgs</Filter>
+    </ClCompile>
+    <ClCompile Include="RuleInfoDlg.cpp">
+      <Filter>UI\Dlgs</Filter>
+    </ClCompile>
+    <ClCompile Include="ScheduleDlg.cpp">
+      <Filter>UI\Dlgs</Filter>
+    </ClCompile>
+    <ClCompile Include="ScheduleListDlg.cpp">
+      <Filter>UI\Dlgs</Filter>
+    </ClCompile>
+    <ClCompile Include="SearchDlg.cpp">
+      <Filter>UI\Dlgs</Filter>
+    </ClCompile>
+    <ClCompile Include="SelContentDlg.cpp">
+      <Filter>UI\Dlgs</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerColumnDlg.cpp">
+      <Filter>UI\Dlgs</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerTableDlg.cpp">
+      <Filter>UI\Dlgs</Filter>
+    </ClCompile>
+    <ClCompile Include="TopicDlg.cpp">
+      <Filter>UI\Dlgs</Filter>
+    </ClCompile>
+    <ClCompile Include="TopicListDlg.cpp">
+      <Filter>UI\Dlgs</Filter>
+    </ClCompile>
+    <ClCompile Include="TopicPublishDlg.cpp">
+      <Filter>UI\Dlgs</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitInfoDlg.cpp">
+      <Filter>UI\Dlgs</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdateServerColumnDlg.cpp">
+      <Filter>UI\Dlgs</Filter>
+    </ClCompile>
+    <ClCompile Include="UrlDlg.cpp">
+      <Filter>UI\Dlgs</Filter>
+    </ClCompile>
+    <ClCompile Include="UserLoginDlg.cpp">
+      <Filter>UI\Dlgs</Filter>
+    </ClCompile>
+    <ClCompile Include="UserManageDlg.cpp">
+      <Filter>UI\Dlgs</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewDataTableDlg.cpp">
+      <Filter>UI\Dlgs</Filter>
+    </ClCompile>
+    <ClCompile Include="ChildFrm.cpp">
+      <Filter>UI\MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>UI\MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="OutputBar.cpp">
+      <Filter>UI\MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>UI\MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="WebDataMining.cpp">
+      <Filter>UI\MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="WebDataMiningDoc.cpp">
+      <Filter>UI\MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="WebDataMiningView.cpp">
+      <Filter>UI\MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="DBServerTree.cpp">
+      <Filter>UI\TreeCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="ExtractSourceTree.cpp">
+      <Filter>UI\TreeCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="ScheduleTree.cpp">
+      <Filter>UI\TreeCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="CJMaskEdit.cpp">
+      <Filter>UI\HelpClass</Filter>
+    </ClCompile>
+    <ClCompile Include="ExpandingDialog.cpp">
+      <Filter>UI\HelpClass</Filter>
+    </ClCompile>
+    <ClCompile Include="GradientProgressCtrl.cpp">
+      <Filter>UI\HelpClass</Filter>
+    </ClCompile>
+    <ClCompile Include="MyRichEditCtrl.cpp">
+      <Filter>UI\HelpClass</Filter>
+    </ClCompile>
+    <ClCompile Include="MySplashThread.cpp">
+      <Filter>UI\HelpClass</Filter>
+    </ClCompile>
+    <ClCompile Include="PROGRESSBAR.CPP">
+      <Filter>UI\HelpClass</Filter>
+    </ClCompile>
+    <ClCompile Include="SetReadOnlyDialog.cpp">
+      <Filter>UI\HelpClass</Filter>
+    </ClCompile>
+    <ClCompile Include="SplashThread.cpp">
+      <Filter>UI\HelpClass</Filter>
+    </ClCompile>
+    <ClCompile Include="TrayIcon1.cpp">
+      <Filter>UI\HelpClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Work.cpp">
+      <Filter>Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkEntry.cpp">
+      <Filter>Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkFile.cpp">
+      <Filter>Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkTopic.cpp">
+      <Filter>Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkUrl.cpp">
+      <Filter>Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="Regex.cpp">
+      <Filter>WDMEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="RegexWDM.cpp">
+      <Filter>WDMEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="WDMEngine.cpp">
+      <Filter>WDMEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="ExtractSourceBar.cpp">
+      <Filter>UI\MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="ExtractRuleBar.cpp">
+      <Filter>UI\MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="ScheduleBar.cpp">
+      <Filter>UI\MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="DBServerBar.cpp">
+      <Filter>UI\MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="OptionsDatabase.cpp">
+      <Filter>UI\Dlgs</Filter>
+    </ClCompile>
+    <ClCompile Include="ExtractRuleTree.cpp">
+      <Filter>UI\TreeCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="RuleTree.cpp">
+      <Filter>DataObject</Filter>
+    </ClCompile>
+    <ClCompile Include="universalcharset\CharDistribution.cpp">
+      <Filter>universalcharset</Filter>
+    </ClCompile>
+    <ClCompile Include="universalcharset\JpCntx.cpp">
+      <Filter>universalcharset</Filter>
+    </ClCompile>
+    <ClCompile Include="universalcharset\LangBulgarianModel.cpp">
+      <Filter>universalcharset</Filter>
+    </ClCompile>
+    <ClCompile Include="universalcharset\LangCyrillicModel.cpp">
+      <Filter>universalcharset</Filter>
+    </ClCompile>
+    <ClCompile Include="universalcharset\LangGreekModel.cpp">
+      <Filter>universalcharset</Filter>
+    </ClCompile>
+    <ClCompile Include="universalcharset\LangHungarianModel.cpp">
+      <Filter>universalcharset</Filter>
+    </ClCompile>
+    <ClCompile Include="universalcharset\LangThaiModel.cpp">
+      <Filter>universalcharset</Filter>
+    </ClCompile>
+    <ClCompile Include="universalcharset\nsBig5Prober.cpp">
+      <Filter>universalcharset</Filter>
+    </ClCompile>
+    <ClCompile Include="universalcharset\nsEscCharsetProber.cpp">
+      <Filter>universalcharset</Filter>
+    </ClCompile>
+    <ClCompile Include="universalcharset\nsEscSM.cpp">
+      <Filter>universalcharset</Filter>
+    </ClCompile>
+    <ClCompile Include="universalcharset\nsEUCJPProber.cpp">
+      <Filter>universalcharset</Filter>
+    </ClCompile>
+    <ClCompile Include="universalcharset\nsEUCKRProber.cpp">
+      <Filter>universalcharset</Filter>
+    </ClCompile>
+    <ClCompile Include="universalcharset\nsEUCTWProber.cpp">
+      <Filter>universalcharset</Filter>
+    </ClCompile>
+    <ClCompile Include="universalcharset\nsGB2312Prober.cpp">
+      <Filter>universalcharset</Filter>
+    </ClCompile>
+    <ClCompile Include="universalcharset\nsLatin1Prober.cpp">
+      <Filter>universalcharset</Filter>
+    </ClCompile>
+    <ClCompile Include="universalcharset\nsMBCSGroupProber.cpp">
+      <Filter>universalcharset</Filter>
+    </ClCompile>
+    <ClCompile Include="universalcharset\nsMBCSSM.cpp">
+      <Filter>universalcharset</Filter>
+    </ClCompile>
+    <ClCompile Include="universalcharset\nsSBCharSetProber.cpp">
+      <Filter>universalcharset</Filter>
+    </ClCompile>
+    <ClCompile Include="universalcharset\nsSBCSGroupProber.cpp">
+      <Filter>universalcharset</Filter>
+    </ClCompile>
+    <ClCompile Include="universalcharset\nsSJISProber.cpp">
+      <Filter>universalcharset</Filter>
+    </ClCompile>
+    <ClCompile Include="universalcharset\nsUniversalDetector.cpp">
+      <Filter>universalcharset</Filter>
+    </ClCompile>
+    <ClCompile Include="universalcharset\nsUTF8Prober.cpp">
+      <Filter>universalcharset</Filter>
+    </ClCompile>
+    <ClCompile Include="tagwindow\JTagWindow.cpp">
+      <Filter>TagWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="tagwindow\JTextExtractor.cpp">
+      <Filter>TagWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="tagwindow\JUtility.cpp">
+      <Filter>TagWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="CharsetDetector.cpp">
+      <Filter>HelpClass</Filter>
+    </ClCompile>
+    <ClCompile Include="UniversalWDM.cpp">
+      <Filter>WDMEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="GetHostIP.cpp">
+      <Filter>HelpClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Ipenum.cpp">
+      <Filter>HelpClass</Filter>
+    </ClCompile>
+    <ClCompile Include="FTPServerInfoDlg.cpp">
+      <Filter>UI\Dlgs</Filter>
+    </ClCompile>
+    <ClCompile Include="FileSend.cpp">
+      <Filter>Ftp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BaseObject.h">
+      <Filter>BaseObject</Filter>
+    </ClInclude>
+    <ClInclude Include="CJTreeCtrl.h">
+      <Filter>BaseObject</Filter>
+    </ClInclude>
+    <ClInclude Include="ConTabCtrl.h">
+      <Filter>BaseObject</Filter>
+    </ClInclude>
+    <ClInclude Include="customtree.h">
+      <Filter>BaseObject</Filter>
+    </ClInclude>
+    <ClInclude Include="DataBase.h">
+      <Filter>BaseObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>BaseObject</Filter>
+    </ClInclude>
+    <ClInclude Include="ado2.h">
+      <Filter>Ado</Filter>
+    </ClInclude>
+    <ClInclude Include="AccessDataBase.h">
+      <Filter>DataObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Column.h">
+      <Filter>DataObject</Filter>
+    </ClInclude>
+    <ClInclude Include="DatabaseEngine.h">
+      <Filter>DataObject</Filter>
+    </ClInclude>
+    <ClInclude Include="DataEngine.h">
+      <Filter>DataObject</Filter>
+    </ClInclude>
+    <ClInclude Include="DBServer.h">
+      <Filter>DataObject</Filter>
+    </ClInclude>
+    <ClInclude Include="DownloadEngine.h">
+      <Filter>DataObject</Filter>
+    </ClInclude>
+    <ClInclude Include="DownloadHttpFile.h">
+      <Filter>DataObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Entry.h">
+      <Filter>DataObject</Filter>
+    </ClInclude>
+    <ClInclude Include="FileEngine.h">
+      <Filter>DataObject</Filter>
+    </ClInclude>
+    <ClInclude Include="HelperObject.h">
+      <Filter>DataObject</Filter>
+    </ClInclude>
+    <ClInclude Include="MySQLDataBase.h">
+      <Filter>DataObject</Filter>
+    </ClInclude>
+    <ClInclude Include="NewsPicture.h">
+      <Filter>DataObject</Filter>
+    </ClInclude>
+    <ClInclude Include="OptionsData.h">
+      <Filter>DataObject</Filter>
+    </ClInclude>
+    <ClInclude Include="OracleDatabase.h">
+      <Filter>DataObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Rule.h">
+      <Filter>DataObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Schedule.h">
+      <Filter>DataObject</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerColumn.h">
+      <Filter>DataObject</Filter>
+    </ClInclude>
+    <ClInclude Include="SQLDataBase.h">
+      <Filter>DataObject</Filter>
+    </ClInclude>
+    <ClInclude Include="SQLServerDataEngine.h">
+      <Filter>DataObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Topic.h">
+      <Filter>DataObject</Filter>
+    </ClInclude>
+    <ClInclude Include="WDMDatabase.h">
+      <Filter>DataObject</Filter>
+    </ClInclude>
+    <ClInclude Include="WDMOperator.h">
+      <Filter>DataObject</Filter>
+    </ClInclude>
+    <ClInclude Include="WDMOperatorUnit.h">
+      <Filter>DataObject</Filter>
+    </ClInclude>
+    <ClInclude Include="WDMTable.h">
+      <Filter>DataObject</Filter>
+    </ClInclude>
+    <ClInclude Include="tinystr.h">
+      <Filter>TinyXml</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml.h">
+      <Filter>TinyXml</Filter>
+    </ClInclude>
+    <ClInclude Include="ChineseCodeLib.h">
+      <Filter>HelpClass</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonFunction.h">
+      <Filter>HelpClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Des.h">
+      <Filter>HelpClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Extract.h">
+      <Filter>HelpClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Logs.h">
+      <Filter>HelpClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Md5.h">
+      <Filter>HelpClass</Filter>
+    </ClInclude>
+    <ClInclude Include="MyTimer.h">
+      <Filter>HelpClass</Filter>
+    </ClInclude>
+    <ClInclude Include="ReceiveSocket.h">
+      <Filter>HelpClass</Filter>
+    </ClInclude>
+    <ClInclude Include="SQLInfoEnumerator.h">
+      <Filter>HelpClass</Filter>
+    </ClInclude>
+    <ClInclude Include="TimerWork.h">
+      <Filter>HelpClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Url.h">
+      <Filter>HelpClass</Filter>
+    </ClInclude>
+    <ClInclude Include="ComboListCtrl.h">
+      <Filter>UI\ListCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="InPlaceCombo.h">
+      <Filter>UI\ListCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="InPlaceEdit.h">
+      <Filter>UI\ListCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ListCtrlEx.h">
+      <Filter>UI\ListCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ListViewEx.h">
+      <Filter>UI\ListCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="SortHeaderCtrl.h">
+      <Filter>UI\ListCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="SortListCtrl.h">
+      <Filter>UI\ListCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="TopicListCtrl.h">
+      <Filter>UI\ListCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckComboBox.h">
+      <Filter>UI\CheckBoxTree</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckTreeCtrl.h">
+      <Filter>UI\CheckBoxTree</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckTreeData.h">
+      <Filter>UI\CheckBoxTree</Filter>
+    </ClInclude>
+    <ClInclude Include="CDragEdit.h">
+      <Filter>UI\DragCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="DragDropListCtrl.h">
+      <Filter>UI\DragCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoCompl.h">
+      <Filter>UI\AutoComplete</Filter>
+    </ClInclude>
+    <ClInclude Include="Subclass.h">
+      <Filter>UI\AutoComplete</Filter>
+    </ClInclude>
+    <ClInclude Include="AlterPictureDlg.h">
+      <Filter>UI\Dlgs</Filter>
+    </ClInclude>
+    <ClInclude Include="AlterTopicUnitDlg.h">
+      <Filter>UI\Dlgs</Filter>
+    </ClInclude>
+    <ClInclude Include="ColumnClassInfoDlg.h">
+      <Filter>UI\Dlgs</Filter>
+    </ClInclude>
+    <ClInclude Include="DatabaseInfoDlg.h">
+      <Filter>UI\Dlgs</Filter>
+    </ClInclude>
+    <ClInclude Include="DBServerDlg.h">
+      <Filter>UI\Dlgs</Filter>
+    </ClInclude>
+    <ClInclude Include="EntryDlg.h">
+      <Filter>UI\Dlgs</Filter>
+    </ClInclude>
+    <ClInclude Include="EveryDayDlg.h">
+      <Filter>UI\Dlgs</Filter>
+    </ClInclude>
+    <ClInclude Include="EveryMonthDlg.h">
+      <Filter>UI\Dlgs</Filter>
+    </ClInclude>
+    <ClInclude Include="EveryWeekDlg.h">
+      <Filter>UI\Dlgs</Filter>
+    </ClInclude>
+    <ClInclude Include="ExportDlg.h">
+      <Filter>UI\Dlgs</Filter>
+    </ClInclude>
+    <ClInclude Include="InfoDlg.h">
+      <Filter>UI\Dlgs</Filter>
+    </ClInclude>
+    <ClInclude Include="LogDlg.h">
+      <Filter>UI\Dlgs</Filter>
+    </ClInclude>
+    <ClInclude Include="LogsDlg.h">
+      <Filter>UI\Dlgs</Filter>
+    </ClInclude>
+    <ClInclude Include="ModifyUserPassDlg.h">
+      <Filter>UI\Dlgs</Filter>
+    </ClInclude>
+    <ClInclude Include="OptionsDlg.h">
+      <Filter>UI\Dlgs</Filter>
+    </ClInclude>
+    <ClInclude Include="OptionsGeneral.h">
+      <Filter>UI\Dlgs</Filter>
+    </ClInclude>
+    <ClInclude Include="OptionsPubConfigDlg.h">
+      <Filter>UI\Dlgs</Filter>
+    </ClInclude>
+    <ClInclude Include="OptionsWDMConfig.h">
+      <Filter>UI\Dlgs</Filter>
+    </ClInclude>
+    <ClInclude Include="PictureDlg.h">
+      <Filter>UI\Dlgs</Filter>
+    </ClInclude>
+    <ClInclude Include="PictureListDlg.h">
+      <Filter>UI\Dlgs</Filter>
+    </ClInclude>
+    <ClInclude Include="RecentDownloadTopicDateDlg.h">
+      <Filter>UI\Dlgs</Filter>
+    </ClInclude>
+    <ClInclude Include="RuleDlg.h">
+      <Filter>UI\Dlgs</Filter>
+    </ClInclude>
+    <ClInclude Include="RuleGroupDlg.h">
+      <Filter>UI\Dlgs</Filter>
+    </ClInclude>
+    <ClInclude Include="RuleInfoDlg.h">
+      <Filter>UI\Dlgs</Filter>
+    </ClInclude>
+    <ClInclude Include="ScheduleDlg.h">
+      <Filter>UI\Dlgs</Filter>
+    </ClInclude>
+    <ClInclude Include="ScheduleListDlg.h">
+      <Filter>UI\Dlgs</Filter>
+    </ClInclude>
+    <ClInclude Include="SearchDlg.h">
+      <Filter>UI\Dlgs</Filter>
+    </ClInclude>
+    <ClInclude Include="SelContentDlg.h">
+      <Filter>UI\Dlgs</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerColumnDlg.h">
+      <Filter>UI\Dlgs</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerTableDlg.h">
+      <Filter>UI\Dlgs</Filter>
+    </ClInclude>
+    <ClInclude Include="TopicDlg.h">
+      <Filter>UI\Dlgs</Filter>
+    </ClInclude>
+    <ClInclude Include="TopicListDlg.h">
+      <Filter>UI\Dlgs</Filter>
+    </ClInclude>
+    <ClInclude Include="TopicPublishDlg.h">
+      <Filter>UI\Dlgs</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitInfoDlg.h">
+      <Filter>UI\Dlgs</Filter>
+    </ClInclude>
+    <ClInclude Include="UpdateServerColumnDlg.h">
+      <Filter>UI\Dlgs</Filter>
+    </ClInclude>
+    <ClInclude Include="UrlDlg.h">
+      <Filter>UI\Dlgs</Filter>
+    </ClInclude>
+    <ClInclude Include="UserLoginDlg.h">
+      <Filter>UI\Dlgs</Filter>
+    </ClInclude>
+    <ClInclude Include="UserManageDlg.h">
+      <Filter>UI\Dlgs</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewDataTableDlg.h">
+      <Filter>UI\Dlgs</Filter>
+    </ClInclude>
+    <ClInclude Include="ChildFrm.h">
+      <Filter>UI\MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>UI\MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="OutputBar.h">
+      <Filter>UI\MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>UI\MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>UI\MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="WebDataMining.h">
+      <Filter>UI\MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="WebDataMiningDoc.h">
+      <Filter>UI\MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="WebDataMiningView.h">
+      <Filter>UI\MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="DBServerTree.h">
+      <Filter>UI\TreeCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ExtractSourceTree.h">
+      <Filter>UI\TreeCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ScheduleTree.h">
+      <Filter>UI\TreeCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="CJMaskEdit.h">
+      <Filter>UI\HelpClass</Filter>
+    </ClInclude>
+    <ClInclude Include="ExpandingDialog.h">
+      <Filter>UI\HelpClass</Filter>
+    </ClInclude>
+    <ClInclude Include="GradientProgressCtrl.h">
+      <Filter>UI\HelpClass</Filter>
+    </ClInclude>
+    <ClInclude Include="MyRichEditCtrl.h">
+      <Filter>UI\HelpClass</Filter>
+    </ClInclude>
+    <ClInclude Include="MySplashThread.h">
+      <Filter>UI\HelpClass</Filter>
+    </ClInclude>
+    <ClInclude Include="PROGRESSBAR.H">
+      <Filter>UI\HelpClass</Filter>
+    </ClInclude>
+    <ClInclude Include="SetReadOnlyDialog.h">
+      <Filter>UI\HelpClass</Filter>
+    </ClInclude>
+    <ClInclude Include="SplashThread.h">
+      <Filter>UI\HelpClass</Filter>
+    </ClInclude>
+    <ClInclude Include="TrayIcon1.h">
+      <Filter>UI\HelpClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Work.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkEntry.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkFile.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkTopic.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkUrl.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="Regex.h">
+      <Filter>WDMEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="RegexWDM.h">
+      <Filter>WDMEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="WDMEngine.h">
+      <Filter>WDMEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>UI\MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="ExtractSourceBar.h">
+      <Filter>UI\MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="ExtractRuleBar.h">
+      <Filter>UI\MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="ScheduleBar.h">
+      <Filter>UI\MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="DBServerBar.h">
+      <Filter>UI\MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="OptionsDatabase.h">
+      <Filter>UI\Dlgs</Filter>
+    </ClInclude>
+    <ClInclude Include="MyMemDC.h">
+      <Filter>UI\HelpClass</Filter>
+    </ClInclude>
+    <ClInclude Include="ExtractRuleTree.h">
+      <Filter>UI\TreeCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="thread_pool.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="utility.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="RuleTree.h">
+      <Filter>DataObject</Filter>
+    </ClInclude>
+    <ClInclude Include="universalcharset\CharDistribution.h">
+      <Filter>universalcharset</Filter>
+    </ClInclude>
+    <ClInclude Include="universalcharset\Charset.h">
+      <Filter>universalcharset</Filter>
+    </ClInclude>
+    <ClInclude Include="universalcharset\JpCntx.h">
+      <Filter>universalcharset</Filter>
+    </ClInclude>
+    <ClInclude Include="universalcharset\nsBig5Prober.h">
+      <Filter>universalcharset</Filter>
+    </ClInclude>
+    <ClInclude Include="universalcharset\nsCharSetProber.h">
+      <Filter>universalcharset</Filter>
+    </ClInclude>
+    <ClInclude Include="universalcharset\nsCodingStateMachine.h">
+      <Filter>universalcharset</Filter>
+    </ClInclude>
+    <ClInclude Include="universalcharset\nsEscCharsetProber.h">
+      <Filter>universalcharset</Filter>
+    </ClInclude>
+    <ClInclude Include="universalcharset\nsEUCJPProber.h">
+      <Filter>universalcharset</Filter>
+    </ClInclude>
+    <ClInclude Include="universalcharset\nsEUCKRProber.h">
+      <Filter>universalcharset</Filter>
+    </ClInclude>
+    <ClInclude Include="universalcharset\nsEUCTWProber.h">
+      <Filter>universalcharset</Filter>
+    </ClInclude>
+    <ClInclude Include="universalcharset\nsGB2312Prober.h">
+      <Filter>universalcharset</Filter>
+    </ClInclude>
+    <ClInclude Include="universalcharset\nsLatin1Prober.h">
+      <Filter>universalcharset</Filter>
+    </ClInclude>
+    <ClInclude Include="universalcharset\nsMBCSGroupProber.h">
+      <Filter>universalcharset</Filter>
+    </ClInclude>
+    <ClInclude Include="universalcharset\nsPkgInt.h">
+      <Filter>universalcharset</Filter>
+    </ClInclude>
+    <ClInclude Include="universalcharset\nsPRMem.h">
+      <Filter>universalcharset</Filter>
+    </ClInclude>
+    <ClInclude Include="universalcharset\nsPRTypes.h">
+      <Filter>universalcharset</Filter>
+    </ClInclude>
+    <ClInclude Include="universalcharset\nsSBCharSetProber.h">
+      <Filter>universalcharset</Filter>
+    </ClInclude>
+    <ClInclude Include="universalcharset\nsSBCSGroupProber.h">
+      <Filter>universalcharset</Filter>
+    </ClInclude>
+    <ClInclude Include="universalcharset\nsSJISProber.h">
+      <Filter>universalcharset</Filter>
+    </ClInclude>
+    <ClInclude Include="universalcharset\nsUniversalDetector.h">
+      <Filter>universalcharset</Filter>
+    </ClInclude>
+    <ClInclude Include="universalcharset\nsUTF8Prober.h">
+      <Filter>universalcharset</Filter>
+    </ClInclude>
+    <ClInclude Include="tagwindow\JTagWindow.h">
+      <Filter>TagWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="tagwindow\JTextExtractor.h">
+      <Filter>TagWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="tagwindow\JUtility.h">
+      <Filter>TagWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="CharsetDetector.h">
+      <Filter>HelpClass</Filter>
+    </ClInclude>
+    <ClInclude Include="StopWatch.h">
+      <Filter>HelpClass</Filter>
+    </ClInclude>
+    <ClInclude Include="UniversalWDM.h">
+      <Filter>WDMEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="GetHostIP.h">
+      <Filter>HelpClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Ipenum.h">
+      <Filter>HelpClass</Filter>
+    </ClInclude>
+    <ClInclude Include="FTPServerInfoDlg.h">
+      <Filter>UI\Dlgs</Filter>
+    </ClInclude>
+    <ClInclude Include="FileSend.h">
+      <Filter>Ftp</Filter>
+    </ClInclude>
+    <ClInclude Include="FtpManager.h">
+      <Filter>Ftp</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuildStep Include="res\caption.bmp">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="UserImages.bmp">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="res\workspace.bmp">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+  </ItemGroup>
+</Project>

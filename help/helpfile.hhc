@@ -1,0 +1,96 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<OBJECT type="text/site properties">
+	<param name="Window Styles" value="0x800025">
+	<param name="ImageType" value="Folder">
+</OBJECT>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="《新闻采集系统3.0》简介">
+		<param name="ImageNumber" value="1">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="《新闻采集系统3.0》概述">
+			<param name="Local" value="html\概述.htm">
+			<param name="ImageNumber" value="21">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="系统运行环境">
+			<param name="Local" value="html\系统运行环境.htm">
+			<param name="ImageNumber" value="21">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="如何使用帮助">
+			<param name="ImageNumber" value="1">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="帮助概述">
+				<param name="Local" value="html\“帮助”概述.htm">
+				<param name="ImageNumber" value="21">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="查找帮助主题">
+				<param name="Local" value="html\查找“帮助”主题.htm">
+				<param name="ImageNumber" value="9">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="复制帮助主题">
+				<param name="Local" value="html\复制“帮助”主题.htm">
+				<param name="ImageNumber" value="9">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="打印帮助主题">
+				<param name="Local" value="html\打印“帮助”主题.htm">
+				<param name="ImageNumber" value="9">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="鼠标使用规则">
+			<param name="Local" value="html\鼠标使用规则.htm">
+			<param name="ImageNumber" value="21">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="正则表达式基础知识">
+		<param name="Local" value="html\正则表达式.htm">
+		<param name="ImageNumber" value="21">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="《新闻采集系统3.0》操作流程">
+		<param name="Local" value="html\《新闻采集系统3.0》操作流程.htm">
+		<param name="ImageNumber" value="21">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="主要功能介绍">
+		<param name="ImageNumber" value="1">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="开始工具栏">
+			<param name="Local" value="html\开始工具栏.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="视图工具栏">
+			<param name="Local" value="html\视图菜单.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="管理工具栏">
+			<param name="Local" value="html\管理工具栏.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="右键菜单">
+			<param name="Local" value="html\右键菜单.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="帮助菜单">
+			<param name="Local" value="html\帮助菜单.htm">
+			</OBJECT>
+	</UL>
+</UL>
+</BODY></HTML>

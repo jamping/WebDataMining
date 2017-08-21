@@ -1,0 +1,81 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=wdm.chm
+Contents file=helpfile.hhc
+Default topic=html\概述.htm
+Display compile progress=No
+Index file=Index.hhk
+Language=0x804 中文(简体，中国)
+
+
+[FILES]
+html\“帮助”概述.htm
+html\帮助菜单.htm
+html\采集规则窗口.htm
+html\采集规则右键菜单.htm
+html\采集源树窗口.htm
+html\采集源右键菜单.htm
+html\测试规则.htm
+html\查找“帮助”主题.htm
+html\创建文章采集调度计划.htm
+html\创建文章采集源.htm
+html\创建文章发布服务器.htm
+html\创建文章提取规则.htm
+html\打印“帮助”主题.htm
+html\大栏目右键菜单.htm
+html\调度计划窗口.htm
+html\调度计划对话框.htm
+html\调度计划根节点右键菜单.htm
+html\调度计划列表.htm
+html\调度计划右键菜单.htm
+html\服务器对话框.htm
+html\服务器右键菜单.htm
+html\服务器组窗口.htm
+html\服务器组右键菜单.htm
+html\复制“帮助”主题.htm
+html\概述.htm
+html\工具菜单.htm
+html\工具栏.htm
+html\规则右键菜单.htm
+html\栏目对话框.htm
+html\配置系统参数.htm
+html\视图菜单.htm
+html\鼠标使用规则.htm
+html\数据表操作对话框.htm
+html\数据表对话框.htm
+html\数据表右键菜单.htm
+html\数据表字段对话框.htm
+html\数据操作右键菜单.htm
+html\数据库对话框.htm
+html\数据库右键菜单.htm
+html\数据字段右键菜单.htm
+html\提取文章.htm
+html\条目对话框.htm
+html\条目右键菜单.htm
+html\图片对话框.htm
+html\图片右键菜单.htm
+html\文件菜单.htm
+html\文章对话框.htm
+html\文章列表范围规则测试.htm
+html\文章右键菜单.htm
+html\系统运行环境.htm
+html\下载链接文章.htm
+html\显示最近下载文章.htm
+html\小栏目右键菜单.htm
+html\用户登陆.htm
+html\右键菜单.htm
+html\正则表达式.htm
+html\指定或取消数据库.htm
+html\状态栏.htm
+html\子规则对话框.htm
+html\子规则右键菜单.htm
+html\日志管理.htm
+html\用户管理.htm
+html\标准工具栏.htm
+html\文章综合发布管理.htm
+html\工具栏定制.htm
+html\设置栏目ID.htm
+html\《新闻采集系统3.0》操作流程.htm
+
+[INFOTYPES]
+

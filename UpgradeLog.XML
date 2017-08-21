@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="WebDataMining">
+</Property><Property Name="Solution File" Value="D:\vc\WebDataMining\WebDataMining.sln">
+</Property><Property Name="Date" Value="2010年5月21日">
+</Property><Property Name="Time" Value="10:46">
+</Property></Properties><Event ErrorLevel="0" Project="WebDataMining" Source="WebDataMining.vcproj" Description="Converting project file 'D:\vc\WebDataMining\WebDataMining.vcproj'.">
+</Event><Event ErrorLevel="1" Project="WebDataMining" Source="WebDataMining.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="WebDataMining" Source="WebDataMining.vcproj" Description="MSB8012: $(TargetName) ('WebDataMining') does not match the Linker's OutputFile property value './bin/WebDataMining_r.exe' ('WebDataMining_r') in project configuration 'Release|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetName) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="1" Project="WebDataMining" Source="WebDataMining.vcproj" Description="MSB8012: $(TargetPath) ('D:\vc\WebDataMining\.\Release\WebDataMining.exe') does not match the Linker's OutputFile property value './bin/WebDataMining_r.exe' ('D:\vc\WebDataMining\./bin/WebDataMining_r.exe') in project configuration 'Release|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetPath) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="1" Project="WebDataMining" Source="WebDataMining.vcproj" Description="MSB8012: $(TargetName) ('WebDataMining') does not match the Linker's OutputFile property value './bin/WebDataMining_d.exe' ('WebDataMining_d') in project configuration 'Debug|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetName) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="1" Project="WebDataMining" Source="WebDataMining.vcproj" Description="MSB8012: $(TargetPath) ('D:\vc\WebDataMining\.\Debug\WebDataMining.exe') does not match the Linker's OutputFile property value './bin/WebDataMining_d.exe' ('D:\vc\WebDataMining\./bin/WebDataMining_d.exe') in project configuration 'Debug|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetPath) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="0" Project="WebDataMining" Source="WebDataMining.vcproj" Description="Done converting to new project file 'D:\vc\WebDataMining\WebDataMining.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="WebDataMining" Source="WebDataMining.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="WebDataMining.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="WebDataMining.sln" Description="Converted">
+</Event></UpgradeLog>

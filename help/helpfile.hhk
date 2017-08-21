@@ -1,0 +1,51 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="文件">
+		<param name="Name" value="文件菜单">
+		<param name="Local" value="html\文件菜单.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="退出">
+		<param name="Name" value="退出">
+		<param name="Local" value="html\退出命令(文件菜单).htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="文件：管理">
+		<param name="Name" value="关闭命令">
+		<param name="Local" value="html\关闭命令(文件菜单).htm">
+		<param name="Name" value="新建命令">
+		<param name="Local" value="html\新建命令(文件菜单).htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="打印和打印预阅">
+		<param name="Name" value="打印命令">
+		<param name="Local" value="html\打印命令(文件菜单).htm">
+		<param name="Name" value="打印预览命令">
+		<param name="Local" value="html\打印预览命令(文件菜单).htm">
+		<param name="Name" value="打印预览工具栏">
+		<param name="Local" value="html\打印预览工具栏.htm">
+		<param name="Name" value="打印设置命令">
+		<param name="Local" value="html\打印设置命令(文件菜单).htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="状态栏">
+		<param name="Name" value="查看状态栏命令">
+		<param name="Local" value="html\状态栏命令(查看菜单).htm">
+		<param name="Name" value="状态栏">
+		<param name="Local" value="html\状态栏.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="工具栏">
+		<param name="Name" value="查看工具栏命令">
+		<param name="Local" value="html\工具栏命令(查看菜单).htm">
+		<param name="Name" value="工具栏">
+		<param name="Local" value="html\工具栏.htm">
+		</OBJECT>
+</UL>
+</BODY></HTML>
