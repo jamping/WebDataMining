@@ -7,7 +7,7 @@
 #include "DownloadHttpFile.h"
 #include <boost/regex/mfc.hpp>
 #include "Url.h"
-#include "CharsetDetector.h"
+//#include "CharsetDetector.h"
 
 #pragma comment(lib,"Wininet.lib")
 
@@ -222,48 +222,48 @@ int CDownloadHttpFile::Fetch(CString strURL,char** pFileBuf,int& nFileLen)
 			//}	
 			// 关闭连接
 			InternetCloseHandle(hOpen);
-			// 编码转换
-			BOOL bChange = TRUE;
-			CString strBuf(buf);
-			CCharsetDetector detecotr;
-			charset_t ct = detecotr.GetCharset(buf,dwBytes);
-			TRACE("The page code is %s\n",Charset::TypeToName(ct).c_str());
+			// 编码转换取消，放在这里不合理，比如图片资源就不需要转码
+			//BOOL bChange = TRUE;
+			//CString strBuf(buf);
+			//CCharsetDetector detecotr;
+			//charset_t ct = detecotr.GetCharset(buf,dwBytes);
+			//TRACE("The page code is %s\n",Charset::TypeToName(ct).c_str());
 
-			switch ( ct )
-			{
-			case Charset::UTF_8:
-				strBuf=CChineseCodeLib::Utf8ToGBK(strBuf);	
-				break;
-			case Charset::BIG5:
-				strBuf = CChineseCodeLib::Big5ToGBK(strBuf);
-				break;
-			default:
-				bChange = FALSE;
-			}
-			// 返回内容和长度
-			if( bChange )
-			{
-				if( dwBytes != strBuf.GetLength() )
-				{
-					char* newBuf=(char*)realloc(buf,strBuf.GetLength()+1);
-					if(newBuf == NULL)
-					{
-						// 清除原来内存，重新申请内存
-						free(buf);
-						buf = NULL;
-						buf=(char*)malloc(strBuf.GetLength()+1);
-					}
-					else
-					{
-						buf=newBuf;
-					}
-				}
-				memcpy(buf,strBuf.GetBuffer(strBuf.GetLength()),strBuf.GetLength());
-				strBuf.ReleaseBuffer(strBuf.GetLength());
+			//switch ( ct )
+			//{
+			//case Charset::UTF_8:
+			//	strBuf=CChineseCodeLib::Utf8ToGBK(strBuf);	
+			//	break;
+			//case Charset::BIG5:
+			//	strBuf = CChineseCodeLib::Big5ToGBK(strBuf);
+			//	break;
+			//default:
+			//	bChange = FALSE;
+			//}
+			//// 返回内容和长度
+			//if( bChange )
+			//{
+			//	if( dwBytes != strBuf.GetLength() )
+			//	{
+			//		char* newBuf=(char*)realloc(buf,strBuf.GetLength()+1);
+			//		if(newBuf == NULL)
+			//		{
+			//			// 清除原来内存，重新申请内存
+			//			free(buf);
+			//			buf = NULL;
+			//			buf=(char*)malloc(strBuf.GetLength()+1);
+			//		}
+			//		else
+			//		{
+			//			buf=newBuf;
+			//		}
+			//	}
+			//	memcpy(buf,strBuf.GetBuffer(strBuf.GetLength()),strBuf.GetLength());
+			//	strBuf.ReleaseBuffer(strBuf.GetLength());
 
-				dwBytes = strBuf.GetLength();
-				buf[dwBytes] = '\0';
-			}			
+			//	dwBytes = strBuf.GetLength();
+			//	buf[dwBytes] = '\0';
+			//}			
 
 			*pFileBuf=buf;
 			nFileLen=dwBytes;	

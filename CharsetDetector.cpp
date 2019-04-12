@@ -21,7 +21,7 @@ charset_t CCharsetDetector::GetCharset(const char* pBuf, size_t len)
 	{
 		return m_detectedCharset;
 	}
-	//could't find a confident Charset			
+	//could't find a confident Charset	
 	return Charset::UNKNOWN;
 }
 void CCharsetDetector::Report(const char * aCharset) 

@@ -10,6 +10,7 @@
 #include "DownloadHttpFile.h"
 #include "Url.h"
 #include "MainFrm.h"
+#include "CharsetDetector.h"
 
 #ifdef _DEBUG
 #define new DEBUG_NEW
@@ -158,6 +159,28 @@ void CEntryDlg::OnButtonTest()
 	if(nLen>0)
 	{				
 		CString strBuf(buf);
+		//编码转换 Added at 2019.04.11
+		CCharsetDetector detecotr;
+		charset_t ct = detecotr.GetCharset(buf,nLen);
+		TRACE("The page code is %s\n",Charset::TypeToName(ct).c_str());
+
+		if( ct == Charset::UNKNOWN && !m_strRuleID.IsEmpty() )
+		{
+			//如自动获取编码失败，则使用手动设置模式，避免乱码出现
+			CRule* pRule=(CRule*)theApp.GetRuleTree()->m_objectHelper.FindSubObject(OBJECT_TYPE_RULE,m_strRuleID);
+			if( pRule && pRule->m_data.m_nRuleEncoding == 1 )
+				ct = Charset::UTF_8;
+		}
+
+		switch ( ct )
+		{
+		case Charset::UTF_8:
+			strBuf=CChineseCodeLib::Utf8ToGBK(strBuf);
+			break;
+		case Charset::BIG5:
+			strBuf = CChineseCodeLib::Big5ToGBK(strBuf);
+			break;
+		}
 		free(buf);
 		buf=NULL;		
 		

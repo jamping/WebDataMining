@@ -15,7 +15,9 @@
 #include "MainFrm.h"
 #include "progressbar.h"
 #include "ExportDlg.h"
+#include "CharsetDetector.h"
 #include <stack>
+
 
 #ifdef _DEBUG
 #define new DEBUG_NEW
@@ -311,6 +313,28 @@ void CExtractRuleTree::OnRuleTest()
 		CTopic* pTopic=new CTopic;
 		pTopic->m_data.m_strURL=strURL;
 		CRegexWDM wdm(static_cast<CRule*>(GetSelectedObject()));
+		//编码转换 Added at 2019.04.11
+		CCharsetDetector detecotr;
+		charset_t ct = detecotr.GetCharset(buf,nLen);
+		TRACE("The page code is %s\n",Charset::TypeToName(ct).c_str());
+
+		if( ct == Charset::UNKNOWN )
+		{
+			//如自动获取编码失败，则使用手动设置模式，避免乱码出现
+			CRule * pRule=static_cast<CRule*>(GetSelectedObject());
+			if( pRule->m_data.m_nRuleEncoding == 1 )
+				ct = Charset::UTF_8;
+		}
+
+		switch ( ct )
+		{
+		case Charset::UTF_8:
+			strBuf=CChineseCodeLib::Utf8ToGBK(strBuf);
+			break;
+		case Charset::BIG5:
+			strBuf = CChineseCodeLib::Big5ToGBK(strBuf);
+			break;
+		}
 		//清理buf
 		free(buf);
 		buf=NULL;

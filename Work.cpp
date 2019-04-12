@@ -10,7 +10,7 @@
 #include "RegexWDM.h"
 #include "Regex.h"
 #include "UniversalWDM.h"
-
+#include "CharsetDetector.h"
 
 #pragma comment(lib,"HLSSplit.lib")
 
@@ -76,7 +76,29 @@ CTopic* CWork::DownloadTopic(CString strTopicURL,BOOL bMore /* =TRUE */)
 		}		
 		if(nLen>0)
 		{
-			CString strBuf(buf),strResultHtml;			
+			CString strBuf(buf),strResultHtml;
+			//编码转换 Added at 2019.04.11
+			CCharsetDetector detecotr;
+			charset_t ct = detecotr.GetCharset(buf,nLen);
+			TRACE("The page code is %s\n",Charset::TypeToName(ct).c_str());
+
+			if( ct == Charset::UNKNOWN && m_pWDM->GetWDMEngineType() == REGEX_WDM_ENGINE )
+			{
+				//如自动获取编码失败，则使用手动设置模式，避免乱码出现
+				CRule * pRule=(static_cast<CRegexWDM*>(m_pWDM))->GetRule();
+				if( pRule->m_data.m_nRuleEncoding == 1 )
+					ct = Charset::UTF_8;
+			}
+
+			switch ( ct )
+			{
+			case Charset::UTF_8:
+				strBuf=CChineseCodeLib::Utf8ToGBK(strBuf);
+				break;
+			case Charset::BIG5:
+				strBuf = CChineseCodeLib::Big5ToGBK(strBuf);
+				break;
+			}
 			//清理buf
 			free(buf);
 			buf=NULL;

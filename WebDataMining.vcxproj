@@ -54,13 +54,15 @@
     <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
     <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
     <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\vc\WebDataMining\include;D:\vc\cximage701_full\CxImage;D:\boost_1_43_0;D:\vc\htmltidy\include;$(IncludePath)</IncludePath>
-    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\vc\WebDataMining\lib;D:\vc\cximage701_full\libd;D:\boost_1_43_0\vc10\lib;D:\vc\htmltidy\lib;$(LibraryPath)</LibraryPath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\vc\WebDataMining\lib;D:\vc\cximage701_full\libd;D:\boost_1_43_0\vc10.0\lib;D:\vc\htmltidy\lib;$(LibraryPath)</LibraryPath>
     <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\vc\WebDataMining\include;D:\vc\cximage701_full\CxImage;D:\boost_1_43_0;D:\vc\htmltidy\include;$(IncludePath)</IncludePath>
-    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\vc\WebDataMining\libr;D:\vc\cximage701_full\libr;D:\boost_1_43_0\vc10\lib;D:\vc\htmltidy\lib;C:\Program Files\Common Files\System\ado;$(LibraryPath)</LibraryPath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\vc\WebDataMining\lib;D:\vc\cximage701_full\libr;D:\boost_1_43_0\vc10.0\lib;D:\vc\htmltidy\lib;$(LibraryPath)</LibraryPath>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ProjectName)_d</TargetName>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ProjectName)_r</TargetName>
     <IgnoreImportLibrary Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</IgnoreImportLibrary>
     <SourcePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SourcePath)</SourcePath>
+    <EmbedManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</EmbedManifest>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</GenerateManifest>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <Midl>
