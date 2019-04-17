@@ -323,15 +323,15 @@ BOOL CWebDataMiningApp::InitInstance()
 	//Create the splash-thread!
 	//
 	CString	vMain(_T("3.0")),
-		vSeri(_T("3,0,0,0")),
-		vData(_T("2016.10.26"));
+		vSeri(_T("3,1,0,0")),
+		vData(_T("2019.04.17"));
 
 	CSplashThreadDemo	*pThread = new CSplashThreadDemo();
 	// you may put these static Texts to the CSplashThreadDemo()-Constructor
 	pThread->AddStringHeaderMain(_T("新闻采集系统3.0"));
 	pThread->AddStringHeaderSub(_T("Web Data Mining system is automatic data processing"));
 	pThread->AddStringCustom(_T("海军政治工作部信息网络中心"));
-	pThread->AddStringCustom(_T("Copyright 2010-2016"));
+	pThread->AddStringCustom(_T("Copyright 2010-2019"));
 
 	pThread->SetTextCustomized(_T("Registered for: xxzx"));
 	pThread->AddStringVersion(_T("Main"));

@@ -534,10 +534,10 @@ FONT 8, "MS Sans Serif", 0, 0, 0x0
 BEGIN
     ICON            IDR_MAINFRAME,IDC_STATIC,7,7,20,20
     LTEXT           "新闻采集系统3.0",IDC_STATIC,41,7,119,8,SS_NOPREFIX
-    LTEXT           "Copyright (C) 2010-2014",IDC_STATIC,41,35,119,8
+    LTEXT           "Copyright (C) 2010-2019",IDC_STATIC,41,35,119,8
     DEFPUSHBUTTON   "关闭",IDOK,178,7,50,14,WS_GROUP
-    PUSHBUTTON      "http://www.zzb.hj",IDC_COMPANY_URL,40,50,119,14
-    LTEXT           "desinged by ocean",IDC_STATIC,41,21,69,8
+    PUSHBUTTON      "http://www.qjw.hj",IDC_COMPANY_URL,40,50,119,14
+    LTEXT           "desinged by jjp",IDC_STATIC,41,21,61,8
 END
 
 IDD_INFO_DLG DIALOG 0, 0, 187, 59

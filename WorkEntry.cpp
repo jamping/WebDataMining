@@ -8,6 +8,7 @@
 #include "Url.h"
 #include "Regex.h"
 #include "RegexWDM.h"
+#include "CharsetDetector.h"
 
 #ifdef _DEBUG
 #undef THIS_FILE
@@ -56,7 +57,29 @@ void CWorkEntry::process()
 		{			
 			// 处理数据
 			CString strBuf(buf);			
-			
+			//编码转换 Added at 2019.04.11
+			CCharsetDetector detecotr;
+			charset_t ct = detecotr.GetCharset(buf,nLen);
+			TRACE("The page code is %s\n",Charset::TypeToName(ct).c_str());
+
+			if( ct == Charset::UNKNOWN && m_pWDM->GetWDMEngineType() == REGEX_WDM_ENGINE )
+			{
+				//如自动获取编码失败，则使用手动设置模式，避免乱码出现
+				CRule * pRule=(static_cast<CRegexWDM*>(m_pWDM))->GetRule();
+				if( pRule->m_data.m_nRuleEncoding == 1 )
+					ct = Charset::UTF_8;
+			}
+
+			switch ( ct )
+			{
+			case Charset::UTF_8:
+				strBuf=CChineseCodeLib::Utf8ToGBK(strBuf);
+				break;
+			case Charset::BIG5:
+				strBuf = CChineseCodeLib::Big5ToGBK(strBuf);
+				break;
+			}
+			//清除不用内存
 			free(buf);
 			buf=NULL;			
 			//提取文章列表有效内容
